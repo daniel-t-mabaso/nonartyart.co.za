@@ -1,0 +1,31 @@
+#d_u0c0_linkAd{
+	height: 24px; padding-top:9px; z-index: 2147483647; position: fixed; bottom:0; left:0; background-color:#eee; width:100%; min-width:600px;
+}
+#d_u0c0_innerlinkAd{
+	position:absolute; top:2px; right:15px;
+}
+#d_u0c0_innerlinkAd_remove{
+	display:none; background:url('http://static.webstarts.com/library/images/chatbox.png') no-repeat left top; height:95px; width:305px; padding:18px; position:absolute; top:-103px; right:-10px;
+}
+#d_u0c0_innerlinkAd_remove > span{
+	color:#666; font-family:Arial; font-size:13px;
+}
+#d_u0c0_innerlinkAd_remove > img{
+	position:absolute; cursor: hand; cursor: pointer; top:1px; right:28px;
+}
+#d_u0c0_linkAd_title{
+	position:absolute; top:5px; left:30px;
+}
+#d_u0c0_linkAd_title span{
+	font-size: 14px; font-family: Arial;
+}
+#d_u0c0_linkAd.absolute{
+	position:absolute;
+	bottom:auto;
+}
+#d_u0c0_linkAd, #d_u0c0_linkAd * {
+  -ms-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}

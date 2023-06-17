@@ -1,0 +1,17 @@
+[18-Jul-2018 21:48:01 UTC] PHP Notice:  Undefined variable: errors in /home/f3106386/public_html/prestige/error.php on line 2
+[18-Jul-2018 21:48:03 UTC] PHP Notice:  Undefined variable: errors in /home/f3106386/public_html/prestige/error.php on line 2
+[18-Jul-2018 21:48:05 UTC] PHP Notice:  Undefined variable: errors in /home/f3106386/public_html/prestige/error.php on line 2
+[08-Nov-2018 20:11:07 UTC] PHP Notice:  Undefined variable: errors in /home/f3106386/public_html/prestige/error.php on line 2
+[19-Sep-2019 07:50:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f3106386/public_html/prestige/assets/php/server.php on line 28
+[19-Sep-2019 07:50:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/f3106386/public_html/prestige/assets/php/server.php on line 31
+[19-Sep-2019 07:51:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f3106386/public_html/prestige/assets/php/server.php on line 28
+[19-Sep-2019 07:51:11 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/f3106386/public_html/prestige/assets/php/server.php on line 31
+[19-Sep-2019 07:51:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f3106386/public_html/prestige/assets/php/server.php on line 77
+[19-Sep-2019 07:51:32 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/f3106386/public_html/prestige/assets/php/server.php on line 80
+[19-Sep-2019 07:51:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f3106386/public_html/prestige/assets/php/server.php on line 28
+[19-Sep-2019 07:51:49 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/f3106386/public_html/prestige/assets/php/server.php on line 31
+[19-Sep-2019 07:52:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f3106386/public_html/prestige/assets/php/server.php on line 28
+[19-Sep-2019 07:52:03 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/f3106386/public_html/prestige/assets/php/server.php on line 31
+[19-Sep-2019 08:01:15 UTC] PHP Notice:  Undefined index: email in /home/f3106386/public_html/prestige/assets/php/server.php on line 12
+[19-Sep-2019 08:02:05 UTC] PHP Notice:  Undefined index: email in /home/f3106386/public_html/prestige/assets/php/server.php on line 12
+[19-Sep-2019 08:02:15 UTC] PHP Notice:  Undefined variable: username in /home/f3106386/public_html/prestige/assets/php/server.php on line 35

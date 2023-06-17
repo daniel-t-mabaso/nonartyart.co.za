@@ -1,0 +1,295 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
+
+/*Default styles | Desktop styles*/
+/*tags*/
+html, body{
+	overflow-x: hidden;
+	}
+body{
+	text-align: center;
+	font-family: open sans;
+	overflow-x:hidden;
+	background-color: black;
+	color: #fff;
+	font-weight: light;
+	}	
+h1, h2, h3{
+	font-family: lora;
+	}
+i{
+	color: #7bfbbb;
+	font-size: 12px;
+	font-weight: normal;
+	}
+ul{
+	text-align: left;
+	}
+
+	
+	
+
+
+	
+/*Element groupings*/
+[id*='ROW-']{
+	position: relative;
+	margin: 0 auto;
+	padding: 0px;
+	width: 1200px;
+}
+[class*='COL-']{
+	position: relative;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 400px;
+}
+	
+/*Default class styles*/
+#ROW-1 .COL-6{float: none;margin: 0 auto;}
+.workIcons{
+	width: 70px;
+	margin: 15px;
+	height: 70px;
+	border-radius: 100%;
+	border: 1px solid orange;
+	opacity: 0.6;
+	background-color: white;
+}
+.workIcons:hover{opacity: 1;
+	width: 80px;
+	margin: 10px;
+	height: 80px;}
+.personIcons{
+		height: 170px;
+		width: 170px;
+		margin: 0 auto;
+		border-radius: 100%;
+		overflow: hidden;
+		box-shadow: 2px 2px 4px 0px #2b2b2b;
+	}
+	
+/*Default ID styles*/
+#ROW-1{height: 160px;}
+#ROW-2{height: 350px;}
+#popup-panel-bottom{
+	margin: 0 auto;
+	height: 160px;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	}
+#ROW-3{
+	display:none;
+	}
+#aboutButton, #skillsButton{
+	position: fixed;
+	top: 330px;
+	font-size: 18px;
+	width: 60px;
+	font-family:lora;
+	cursor: pointer;
+}
+#skillsText, #aboutText{opacity: 0; width: 400px; font-size: 14px;}
+#aboutButton{margin-left: -190px;}
+#skillsButton{margin-left: 130px;}
+#personPanel{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#aboutButton:hover, #skillsButton:hover, #workButton:hover{color:#7bfbbb;font-weight: bold; font-size: 18px;}
+#workButton{
+	position: fixed;
+	width: 60px;
+	z-index:2;
+	margin-left:-30px;
+	font-size: 18px;
+	font-family:lora;
+	cursor: pointer;
+	}
+#mousePosition{
+	text-align: center;
+	}
+#background{width: 120%; opacity: 0.3; left: 0px;}
+/*Default animations  styles*/
+@keyframes pulse {
+  0% {height: 170px;
+  width: 170px;
+  }
+  50%{height: 173px;
+  width: 173px;}
+  100% {height: 170px;
+  width: 170px;
+  }
+}
+@keyframes slideup {
+  0% {margin-top: 200px;opacity:0;
+  }
+  50%{opacity: 0;}
+  100% {margin-top: 0px;opacity: 1;
+  }
+}
+@keyframes slidedown {
+  0% {margin-top: 0px;
+  opacity: 1;
+  }
+  50%{opacity: 0;}
+  100% {margin-top: 200px;
+  opacity: 0;
+  }
+}
+@keyframes fadeout {
+  0% {0pacity: 1;
+  }
+  100% {opacity: 0;
+  }
+}
+@keyframes slideright {
+  0% {margin-left: 500px;opacity: 0;
+  }
+  50%{opacity: 0;}
+  100% {margin-left: 0px;opacity: 1;
+  }
+}
+@keyframes sliderightagain {
+  0% {margin-left: 0px;opacity:1;
+  }
+  50%{opacity: 0;}
+  100% {margin-left: -500px;opacity: 0;
+  }
+}
+@keyframes slide {
+  0% {margin-left: 0px;opacity: 1;
+  }
+  50%{opacity: 0;}
+  100% {margin-left: 500px;opacity: 0;
+  }
+}
+@keyframes slide2 {
+  0% {margin-left: -500px;opacity: 0;
+  }
+  50%{opacity: 0;}
+  100% {margin-left: 0px;opacity: 1;
+  }
+}
+#ROW-1 .COL-6{margin-top: 70px;}
+#nameTxt{margin-top: 100px;}
+/*Mobile styles*/
+@media only screen and (max-width: 400px){
+	.COL-3, .COL-9{
+	display: none;
+}#nameTxt{margin-top: 10px;}
+body{overflow-y: hidden;margin:0px;}
+	.COL-6{width: 100%;}
+[id*='ROW-']{
+	width: 300px;
+}
+#ROW-1{height: 70px;}
+#ROW-2{height:270px;}
+#aboutButton{margin-left: -150px;}
+#skillsButton{margin-left: 90px;}
+#background{width: auto;margin-left: -580px; height: 100%; opacity: 0.2;}
+
+#personPanel{
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+
+#aboutButton, #skillsButton{top:265px;}
+}
+@media only screen and (min-width: 400px) and (max-width: 736px){
+    .COL-3, .COL-9{
+	display: none;
+}
+body{overflow-y: hidden;margin:0px;}
+	.COL-6{width: 100%;}
+[id*='ROW-']{
+	width: 300px;
+}
+#ROW-1{height: 70px; top:-45px; left: 20px;position: fixed; text-align:left;}
+#ROW-1 h1{margin-top: 0px; padding: 5px; font-size: 24px;}
+#ROW-1 h2{margin-top: -15px; padding-left: 10px; font-size: 14px;}
+#ROW-2{height:270px;}
+#aboutButton{margin-left: -150px;}
+#skillsButton{margin-left: 90px;}
+#background{width: auto;margin-left: -40px; height: 100%; opacity: 0.2;}
+
+#personPanel{
+	margin-top: 50px;
+	margin-bottom: 5px;
+}
+
+.personIcons{margin-top: 35px;width:130px; height:130px;}
+
+#aboutButton,  #skillsButton{z-index:2;top:125px;}
+}
+
+    #mobile-text{display: none;}
+
+@media only screen and (max-width: 450px){
+    #ROW-1{
+        position: relative;width: 300px;
+        height: 240px;
+        margin: 0 auto;
+    }
+#ROW-2 [class*='COL-']{
+	position: relative;
+	margin: 0 auto;
+	padding: 0px;
+	width: 300px;
+	display: none;
+}
+    #ROW-2{width: 300px;
+    height: 200px;
+        margin: 0 auto;}
+        #ROW-2 .COL-6{
+            display: block;
+            height: 200px;
+        }
+#aboutButton, #workButton, #skillsButton{
+    display:none;}
+    #personPanel{
+        padding: 0px;
+        margin: 0 auto;
+    }
+    #popup-panel-bottom{display:none;}
+    #mobile-text{display: block;}
+}
+@media only screen and (min-width: 450px) and (max-width: 736px){
+    #mobile-text{display: block;}
+    #ROW-1{
+        position: relative;width: 200px;
+        height: 150px;
+        margin: 0 auto;
+    }
+#ROW-2 [class*='COL-']{
+	position: relative;
+	margin: 0 auto;
+	padding: 0px;
+	width: 300px;
+	display: none;
+}
+    #ROW-2{width: 300px;
+    height: 200px;
+        margin: 0 auto;}
+        #ROW-2 .COL-6{
+            display: block;
+            height: 200px;
+        }
+    #popup-panel-bottom{display:none;}
+#aboutButton, #workButton, #skillsButton{
+    display:none;}
+    #personPanel{
+        padding: 0px;
+        margin: 0 auto;
+    }
+}
+
+/*Tablet styles*/
+@media only screen and (min-width: 736px) and (max-width: 1080px){}

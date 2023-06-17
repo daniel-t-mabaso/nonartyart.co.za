@@ -1,0 +1,685 @@
+/*All rights reserved. Property of NON ARTISTIC ART*/
+
+/*
+z-index:3 is the top most index
+z-index:1 is the normal index
+
+All IDs are uppercase. CSS is case-sensitive.
+
+For the current page, except home page, the corresponding menu item
+should have the following :-  box-shadow: 1px 1px 1px 2px #5b5b5b; background-color: #81acdc; color:white;
+*/
+
+
+
+/*Normal view equals mobile view. This is therefore css for mobile view*/
+/*CSS for the basic structure of the website
+Also the core CSS for home page - index.html
+*/
+/*Scroll bar*/
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color:gray;
+}
+
+::-webkit-scrollbar-thumb {
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+#MENU:hover .TEXT{color: gold;
+font-weight: bolder;}
+@font-face
+  {
+    font-family: gruppo;
+    src: url(Gruppo-Regular.ttf)
+  }
+a
+  {
+    text-decoration: none;
+  }
+#MENU a{color:black;}
+@font-face
+  {
+    font-family: KaushanScript;
+    src: url(KaushanScript-Regular.ttf)
+  }
+
+HTML, Body, #CONTAINER-1
+  {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+
+    font-family: gruppo;
+    background-color: #f3f3f3;
+  }
+
+#workProcess
+  {
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+  }
+
+.BG-COVER{
+  position: fixed;
+  z-index: 0;
+
+  width:100%;
+  height:inherit;
+
+  opacity: 0.7;
+
+  background-image: url(./background.png);
+  background-size:cover ;
+  background-repeat: repeat-y;
+  background-position: center;
+
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+
+
+/*attributes*/
+div
+  {
+    margin:auto;
+  }
+
+/*classes*/
+[class*="COL-"]
+  {
+    width:100%;
+  }
+.ARROW-RIGHT
+  {
+    border-radius: 25px;
+    display:none;
+    border: 1px solid white;
+
+    width:36px;
+
+    padding-left: 2px;
+    margin: auto;
+    margin-top: 20px;
+
+    cursor: pointer;
+
+    padding-bottom:5px;
+
+    font-family: sans-serif;
+    font-weight: 100;
+
+    opacity: 0.6;
+  }
+#ABOUT .NAA-ICON
+  {
+    width:150px;
+    height:150px;
+
+    float:left;
+    /*box-shadow: 0px 1px 1px 0px gray;*/
+    margin-right: 15px;
+  }
+.MENU-ITEM
+  {
+    background-color: #d1d1d1;
+    border-top: 1px solid gray;
+
+    height:30px;
+    width:220px;
+
+    font-size: 30px;
+    text-align: left;
+    padding-left: 5px;
+
+    display: none;
+  }
+.MENU-ITEM:hover
+  {
+    background-color: #f3a65b;
+  }
+.PROJECT-BOX
+  {
+    height:250px;
+    width: 250px;
+    border: 1px solid #b0b0b0;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 5px;
+  }
+
+.SERVICE-ICON
+  {
+    margin-bottom: 50px;
+    width:250px;
+    padding: 10px;
+    height:250px;
+    font-weight: lighter;
+    font-family: monospace;;
+    border-radius: 15px 0px 15px 15px;
+    border-left: 1px solid #acacac;
+    border-bottom: 1px solid #cccccc;
+  }
+/*IDs*/
+
+#LOGO .NAA-ICON
+  {
+    display:none;
+  }
+#CUSTOMER
+  {
+    background-color: gold;
+    border-bottom: 1px solid;
+    height:50px;
+    width:500px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 5px;
+  }
+#ABOUT
+  {
+    font-size: 20px;
+    padding: 30px;
+    text-align: left;
+  }
+#FOOTER
+  {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 40px;
+    background-color:#c0c0c0;
+    text-align: center;
+  }
+#HEADER-BG
+  {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 40px;
+    background-color:#c1c1c1;
+    opacity: 1;
+    box-shadow: 0px 1px 1px 0px #000000;
+  }
+#HEADER
+  {
+    position: fixed;
+    z-index: 3;
+    top:0px;
+    width: 100%;
+    height: 40px;
+  }
+
+.PROJECT-BOX:hover .PROJECT-BG
+  {
+    position: absolute;
+    width: inherit;
+    height:inherit;
+    border-radius: 3px;
+    z-index: 1;
+    opacity:0.3;
+    background-color: #fdfdfd;
+  }
+
+#SOCIAL-BAR
+  {
+    position: relative;
+    z-index: 2;
+    width: 120px;
+    height: 34px;
+
+    margin-right: 20px;
+
+    box-shadow: 1px 1px 1px 0px gray;
+    border-radius: 0px 0px 7px 7px;
+
+    background-color: #7b7b7b;
+
+    float: right;
+  }
+
+#TITLE
+  {
+    font-size: 45px;
+    font-family:KaushanScript;
+    font-weight:100;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #3a3a3a;
+  }
+#MOTTO
+  {
+    margin-right: -25px;
+    font-size: 18px;
+    font-family: monospace;
+    margin: 5px;
+    height:30px;
+  }
+
+#ROW-3
+  {
+    position:relative;
+    z-index: 1;
+    margin: auto;
+    height:860px;
+    width: 92%;
+    color:white;
+    overflow: hidden;
+  }
+#LOGO
+  {
+    text-align: center;
+    font-family:monospace;
+    width:120px;
+    height:40px;
+
+    float: left;
+
+    color:#ffffff;
+    background-color: #000000;
+  }
+
+#ROW-2 .COL-6
+  {
+    width:95%;
+  }
+#MENU
+  {
+
+    position:relative;
+    list-style: none;
+    display:inline;
+    width:220px;
+    padding: 0px;
+    margin: 0px;
+    height:40px;
+    float: right;
+    text-align: center;
+  }
+
+#MENU-LABEL
+  {
+    margin: 0;
+    height: 40px;
+  }
+
+#MENU:hover .MENU-ITEM
+  {
+    display: block;
+  }
+
+.TEXT
+  {
+    margin: 11px;
+  }
+
+#ROW-1
+  {
+    position: relative;
+    z-index: 1;
+
+    top:-18px;
+    padding-top:58px;
+    width: 100%;
+
+    color:#ffffff;
+    overflow: hidden;
+    height:1200px;
+
+    text-align: center;
+  }
+.HEADING
+    {
+      padding-top: 10px;
+      padding-left: 20px;
+      font-size: 40px;
+      margin: 0px;
+    }
+#ROW-4 .COL-6{margin: 0 auto; float:none; height: 100%; width: 60%;}
+#ROW-2, #ROW-4
+  {
+    background-color: #fcfcfc;
+  }
+#ROW-4
+  {
+    position: relative;
+    z-index: 1;
+    height: 550px;
+  }
+#ROW-2
+  {
+    position: relative;
+    z-index: 1;
+    height:800px;
+    width: 100%;
+    box-shadow: 5px 0px 5px 0px gray;
+    overflow: hidden;
+  }
+.ARROW-RIGHT:hover
+  {
+    color:#dddddd;
+    background-color:#acaccc;
+    opacity: 1;
+  }
+
+.SERVICE-ICON:hover .PROJECT-BG
+  {
+    position: absolute;
+    width: inherit;
+    height:inherit;
+    border-radius: 15px;
+    z-index: 1;
+    opacity:0.3;
+    background-color: #fdfdfd;
+  }
+.MENU-ITEM-EXPAND
+  {
+    position:absolute;
+    padding-top:40px;
+    width:80px;
+
+  }
+.MENU-SUBITEM
+  {
+    list-style: none;
+    display:none;
+    height: 30px;
+    background-color: #f5f5f5;
+    width: 160px;
+    padding-top: 11px;
+    margin-left: -40px;
+
+    text-align: left;
+    padding-left: 5px;
+    box-shadow: 1px 3px 1px 0px #5b5b5b;
+  }
+.MENU-SUBITEM:hover
+  {
+    background-color: gold;
+  }
+.MENU-ITEM:hover .MENU-ITEM-EXPAND:hover .MENU-SUBITEM
+  {
+    display:none;
+  }
+.MENU .TEXT{width:220px; text-align: center;}
+
+#LOGO .TEXT
+  { margin-left:3px;
+    margin-top: 8px;
+    color:white;
+  }
+  #LOGO .TEXT
+    {
+      display:none;
+    }
+  #LOGO .NAA-ICON
+    {
+      display:block;
+      width: 32px;
+      height:30px;
+      margin-top: -2px;
+      margin-left: 11px;
+    }
+    #LOGO
+      {
+        width:65px;
+      }
+@media only screen and (min-width:736px) and (max-width:1080px)
+  {
+
+    .MENU-ITEM:hover .MENU-ITEM-EXPAND:hover .MENU-SUBITEM
+      {
+        display:block;
+      }
+    .SERVICE-ICON:hover .PROJECT-BG
+      {
+        background:none;
+      }
+      #ABOUT
+        {
+          padding:10px;
+        }
+      .MENU-ITEM-EXPAND
+        {
+          position:absolute;
+          padding-top:41px;
+          width:50px;
+          top:0px;
+        }
+    #LOGO .TEXT
+      {
+        display:none;
+      }
+    #LOGO .NAA-ICON
+      {
+        display:block;
+        width: 32px;
+        height:30px;
+        margin-top: -2px;
+        margin-left: 11px;
+      }
+    .HEADING
+        {
+          padding: 40px;
+          padding-left: 50px;
+        }
+    .ARROW-RIGHT
+      {
+        display:block;
+      }
+    #ABOUT .NAA-ICON
+      {
+        width:200px;
+        height:200px;
+      }
+    .SERVICE-ICON
+      {
+        margin-bottom: 0px;
+        margin: auto;
+        width:220px;
+        height:220px;
+      }
+    #MENU .TEXT
+      {
+        display:none;
+      }
+    .MENU-ITEM
+      {
+        border-top: none;
+        border-bottom: 1px;
+        display:inline-block;
+        width:90px;
+        height: 28px;
+        padding-top: 11px;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 12px;
+        background: none;
+      }
+    #MENU:hover .MENU-ITEM
+      {
+        display: inline-block;
+      }
+    #MENU
+      {
+        width:auto;
+      }
+    [class*="COL-"]
+      {
+        width:33.33%;
+        float:left;
+      }
+    #LOGO
+      {
+        width:65px;
+      }
+    #ROW-1
+      {
+        height:93%;
+        margin: auto;
+      }
+    #ROW-2
+      {
+        height:630px;
+      }
+    #ROW-2 .COL-6
+      {
+        float:none;
+        text-align: center;
+        margin: auto;
+        width:80%;
+      }
+    #ROW-3     [class*="COL-"]
+      {
+        float:none;
+        width:50%;
+        margin: auto;
+        float: left;
+      }
+    #ROW-3
+      {
+        height:550px;
+      }
+    .PROJECT-BOX
+      {
+        text-align: center;
+        height:310px;
+        width: 310px;
+        margin: auto;
+      }
+      ::-webkit-scrollbar {
+          width: 8px;
+      }
+}
+
+@media only screen and (max-width:450px)
+  {
+    #ROW-2{height:1000px;}
+    #work{width: 200px;}
+    #ROW-4 .COL-6{width: 100%;}
+    #ROW-4{height: 300px;}
+    #workProcess{width: 100%;}
+
+  }
+@media only screen and (min-width:1080px)
+  {
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    .MENU-ITEM:hover .MENU-ITEM-EXPAND:hover .MENU-SUBITEM
+      {
+        display:block;
+      }
+      #ROW-2
+        {
+          height:630px;
+        }
+    .SERVICE-ICON:hover .PROJECT-BG
+      {
+        background:none;
+      }
+    .MENU-ITEM-EXPAND
+      {
+        position:absolute;
+        padding-top:41px;
+        width:80px;
+        top:0px;
+      }
+    .HEADING
+      {
+        padding: 30px;
+        padding-left: 200px;
+      }
+    .ARROW-RIGHT
+      {
+        display:block;
+      }
+    #ABOUT .NAA-ICON
+      {
+        width:250px;
+        height:250px;
+      }
+    #ROW-1
+      {
+        height:650px;
+        width: 90%;
+        margin: auto;
+
+      }
+    .SERVICE-ICON
+      {
+        margin-bottom: 0px;
+        margin: auto;
+        width:280px;
+        height:280px;
+      }
+    #MENU .TEXT
+      {
+        display:none;
+      }
+    .MENU-ITEM
+      {
+        border-top: none;
+        border-bottom: 1px;
+        display:inline-block;
+        width:120px;
+        height: 23px;
+        padding-top: 16px;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 14px;
+        background: none;
+      }
+
+    #MENU:hover .MENU-ITEM
+      {
+        display: inline-block;;
+      }
+    #MENU
+      {
+        width:auto;
+      }
+    [class*="COL-"]
+      {
+        width:33.33%;
+        float:left;
+        text-align: center;
+      }
+    #ROW-2 .COL-6
+      {
+        float:none;
+        text-align: center;
+        margin: auto;
+        width:70%;
+      }
+    #ROW-3
+      {
+        margin: auto;
+        height:640px;
+      }
+    #ROW-3     [class*="COL-"]
+      {
+        float:none;
+        width:50%;
+        margin: auto;
+        float: left;
+      }
+    .PROJECT-BOX
+      {
+        height:400px;
+        width: 400px;
+        margin: auto;
+      }
+  }
+/*end of home page css*/

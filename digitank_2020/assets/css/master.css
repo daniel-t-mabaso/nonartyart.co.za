@@ -1,0 +1,22 @@
+@import url(theme.css);
+@import url(animations.css);
+@import url(components.css);
+@import url(sizes.css);
+@import url(paddings.css);
+@import url(margins.css);
+@import url(radiuss.css);
+@import url(widths.css);
+@import url(heights.css);
+@import url(positions.css);
+@import url(opacities.css);
+@import url(layout.css);
+@import url(fonts.css);
+@import url(font-styles.css);
+
+@import url(home.css);
+@import url(contact.css);
+@import url(courses.css);
+@import url(course-categories.css);
+@import url(booking.css);
+@import url(dashboard.css);
+@import url(common.css);

@@ -1,0 +1,128 @@
+<!--All code contained within this document was written by Non-Artistic Art. All rights reserved.
+http://nonartyart.co.za-->
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<link rel= stylesheet type='text/css' href='./resources/scripts/basic.css'>
+		<link rel=stylesheet type='text/css' href='./resources/scripts/fonts.css'>
+		<link rel = icon type ='image/png' href='./resources/images/mapIcon.png'>
+		
+		<meta name = "viewport" content="width = device-width, initial-scale:1.0">
+		<meta name = 'description' content='Search for your most time-convinient, cost effective and accessible student accomodation in and around the Cape Town area - All from the comfort of your home... or work... or car... Anywhere really'>
+		<meta name = 'keywords' content='Accomodation, Transport, Student, Find, My, Place, Cape, Town'>
+		<meta name = 'charset' content='utf-8'>
+		<meta name = 'Author' content='Non-Artistic Art'>
+		
+				
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<meta property='og:url' content='http://www.findmyplace.com/'/>
+		<meta property='og:title' content='Find my place'/>
+		<meta property='og:description' content='Search for your most time-convinient, cost effective and accessible student accomodation in and around the Cape Town area - All from the comfort of your home... or work... or car... Anywhere really'/>
+		<meta property='og:image' content='http://www.findmyplace.com/resources/images/mapIcon.png'/>
+		
+		<script src="./resources/scripts/behavior.js"></script>
+		<TITLE>Find My Place</TITLE>
+	</HEAD>
+	<BODY onload='displayFilterOptions("accomodation"); checkMenuOnScreenChange();' onresize='checkMenuOnScreenChange();'>
+		<div id='CONTAINER'>
+		<div id='bgBlur' onclick='clearScreen();'></div>
+			<!--HEADER | CONTAINS NAVIGATION PANEL-->
+			<div id='ROW-1'>
+				<div id='companyId'>Find My Place</div>
+				<div id='navigationBar'>
+					<b id='menuButton' onclick='toggleMenu();'>menu</b>
+					<ul id='menuList'>
+						<a id='menuHyperlink' href='<!--url here-->' onclick='alert("This is only a prototype; the feature you have selected is non-functional!"); return false;'><li class='menuItem'>Accomodation</li></a>
+						<a id='menuHyperlink' href='<!--url here-->' onclick='alert("This is only a prototype; the feature you have selected is non-functional!"); return false;'><li class='menuItem'>Transport</li></a>
+						<a id='menuHyperlink' href='<!--url here-->' onclick='alert("This is only a prototype; the feature you have selected is non-functional!"); return false;'><li class='menuItem'>Dashboard</li></a>
+						<a id='menuHyperlink' href='<!--url here-->' onclick='alert("This is only a prototype; the feature you have selected is non-functional!"); return false;'><li class='menuItem'>About</li></a>
+					</ul>
+				</div>
+			</div>
+			<!--BODY | CONTAINS MAP AND FILTRATION PANEL-->
+			<div id='ROW-2'>
+				<div class='COL-3'>
+					<b id='filterButton' onclick='toggleFilter();'>filters</b>
+					<div id='filterPanel'>
+						<ul id='filterList'>
+							<h3 id='filterText'>Filters</h3>
+							<li onclick='displayFilterOptions("accomodation");' id='accomodation' class='filterHeading'>
+								Accomodation Type
+								<ul class='filterOptions'>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Any</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Appartment</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Student Residence</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Guest House</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Other</li>
+								</ul>
+							</li>
+							<li onclick='displayFilterOptions("transport");' id='transport' class='filterHeading'>
+								Transport Type
+								<ul class='filterOptions'>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Any</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Train</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Bus</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Taxi</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Jammie Shuttle</li>
+									
+								</ul>
+							</li>
+							<li onclick='displayFilterOptions("price");' id='price' class='filterHeading'>
+								Price Range
+								<ul class='filterOptions'>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Any</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Less than R2,500</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>R2,500 - R4,000</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>R4,000 - R5,500</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>R5,500 - R7,000</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>R7,000 - R10,000</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>More than R10,000</li>
+									
+								</ul>
+							</li>
+							<li onclick='displayFilterOptions("radius");' id='radius' class='filterHeading'>
+								Radius
+								<ul class='filterOptions'>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>Any</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>1 km</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>3 km</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>5 km</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>10 km</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>15 km</li>
+									<li class='filterOptionItem'onclick='alert("This is only a prototype; the feature you have selected is non-functional!")'>More than 15 km</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class='COL-6'>
+					<div id='searchPanel'>
+						<form action='' name='mapSearchForm' method='post' id='mapSearchForm'>
+						<input type='text' name='searchTextbox' id='searchTextbox' placeholder='Address, Suburb, City, or Area Code' required/>
+						<input style="-webkit-transform: rotate(-45deg); 
+               -moz-transform: rotate(-45deg); 
+                 -o-transform: rotate(-45deg);
+                    transform: rotate(-45deg);"type='submit' value='&#9906' name='searchMapButton' onclick='alert("This is only a prototype; the feature you have selected is non-functional!")' id='searchMapButton'/>
+						</form>
+					</div>
+					<!--<div id='presentFilters'>
+						<ul id='presentFiltersList'>
+							<li class='presentFilterItem'>Accomodation Type | Any </li>
+							<li class='presentFilterItem'>Transport Type | Any </li>
+							<li class='presentFilterItem'>Price Range | Any</li>
+							<li class='presentFilterItem'>Radius | Any </li>
+						</ul>
+					</div>
+					<div id='MapPanel'>
+						<iframe width="100%" height="550" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=18.436088562011722%2C-33.97596525798471%2C18.50183486938477%2C-33.93524227194518&amp;layer=transportmap" style="border: 1px solid black"></iframe>
+					</div>-->
+    <div id="map"></div>
+				</div>
+			</div>
+		</div>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC05K8hwcP6Yzbc9nIEg1gxL5Jw3iRPHmg&callback=initMap">
+    </script>		
+	</BODY>
+</HTML>

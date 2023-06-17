@@ -1,0 +1,291 @@
+@media only screen and (max-width: 450px){
+}
+@media only screen and (min-width: 450px) and (max-width: 736px){
+}
+@media only screen and (min-width: 736px) and(max-width: 1080px){
+}
+@media only screen and (min-width: 1080px){
+    #header{
+        height: 70px;
+    }
+    #pageLoader{
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        position: fixed;
+        z-index: 300;
+        background-color: white;
+    }
+    #header .content{
+        width: 980px;
+        margin: 0 auto;
+        height: fit-content;
+    }
+    #navigation-bar{
+        width: 970px;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #left-navigation-panel div, #right-navigation-panel div{
+        font-size:13px;
+        color:#1a1a1a;
+        display: inline-block;
+        font-family:Roboto-Black, Roboto;
+        letter-spacing:0.2em;
+    }
+    #left-navigation-panel, #right-navigation-panel{
+        width: calc(100%/2 - 100px);
+        line-height:45px;
+    }
+    #left-navigation-panel{
+        float: left;
+    }
+    #left-navigation-panel div{
+        margin-right: 40px;
+    }
+    #right-navigation-panel{
+        float: right;
+        text-align: right;
+    }
+    #right-navigation-panel div{
+        margin-left: 40px;
+    }
+    #navigation-bar #center-navigation-panel{
+        font-size:36px;
+        float: left;
+        color:#1a1a1a;
+        font-family:Avenir-Black, Avenir;
+        text-align: center;
+        width: 200px;
+    }
+    .button{
+        height: 68.54px;
+        width: 270.13px;
+        background-color:#ff530d;
+        font-size:13px;
+        font-family:Roboto-Black, Roboto;
+        letter-spacing:0.20000751201923078em;
+        color: white;
+        cursor: pointer;
+        text-align: center;
+        line-height: 65px;
+    }
+    #footer .content{
+        width: 95%;
+    }
+    #footer .content .navigation-panel{
+        width: 1070px;
+        height: 300px;
+        margin: 0 auto;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    #footer .social-media-panel{
+        float: left;
+        width: 40px;
+        height: 300px;
+        margin-right: 80px;
+    }
+    #footer .social-media-panel .icon{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #footer img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #footer .footer-navigation-panel{
+        font-size:16px;
+        color:#4d4d4d;
+        font-family:Roboto-Medium, Roboto;
+        letter-spacing:0.100006103515625em;
+        margin-right: 100px;
+        float: left;
+    }
+    #footer .footer-navigation-panel .heading{
+        font-size:18px;
+        padding-bottom: 10px;
+        color:#1a1a1a;
+        font-family:Roboto-Black, Roboto;
+        letter-spacing:0.2000054253472222em;
+    }
+    #footer .footer-navigation-panel .item{
+        font-size:16px;
+        color:#4d4d4d;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        font-family:Roboto-Medium, Roboto;
+        letter-spacing:0.100006103515625em;
+    }
+    #footer .footer-panel{
+        float: right;
+        position: absolute;
+        right: 90px;
+        margin-top: 142px;
+    }
+    #footer .footer-panel .tag-line{
+        transform: rotate(-90deg);
+        font-size: 14px;
+        color:#1a1a1a;
+        font-family:Roboto-Black, Roboto;
+        letter-spacing:0.100006103515625em;
+        display: block;
+        right: 0px;
+        position: absolute;
+        margin-right: -90px;
+        width: 300px;
+        text-align: right;
+    }
+    #footer .footer-panel .logo-line{
+        text-align: right;
+        display: block;
+        font-size:50.625px;
+        color:#1a1a1a;
+        margin-top: 50px;
+        font-family:Avenir-Black, Avenir;
+    }
+
+    #footer hr{
+        color: #1a1a1a;
+        width: 100%;
+        border: 1px solid #1a1a1a;
+    }
+    #footer #fine-print{
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+    #footer #fine-print .item{
+        font-size:12.5px;
+        color:#1a1a1a;
+        font-family:Roboto-Bold, Roboto;
+        font-weight:700;
+        letter-spacing:0.1926953125em;
+        display: inline-block;
+    }
+    #footer #fine-print .float-left .item{
+        margin-right: 60px;
+    }
+    #footer #fine-print .item span{
+        font-size:17px;
+        font-family:Avenir-Black, Avenir;
+        letter-spacing: normal;
+    }
+    #row-contact-me .content{
+        width: 1070px;
+    }
+    #row-contact-me{
+        min-height: 620px;
+        padding-top: 110px;
+        padding-bottom: 170px;
+        background-color: #f1f1f1;
+    }
+    #row-contact-me .heading{
+        font-size:49px;
+        color:#1a1a1a;
+        font-family:Roboto-MediumItalic, Roboto;
+        font-style:italic;
+        letter-spacing:0.10000465029761904em;
+        margin-left: 80.79px;
+        margin-bottom: 90px;
+    }
+    .contact-form-panel, .anticipate, .let-us-know{
+        float: left;
+    }
+    .contact-form-panel{
+        background-color:#ff530d;
+        width: 317.66px;
+        height: 378.547px;
+        padding: 46px;
+        color: #1a1a1a;
+    }
+    .anticipate{
+        background-color: white;
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 285px;
+        height: 418.547px;
+        padding: 26px;
+        font-size:20px;
+        line-height: 30px;
+        color:#ff530d;
+        font-family:Roboto-Black, Roboto;
+        letter-spacing:0.2000054253472222em;
+    }
+    .let-us-know{
+        width: 190px;
+        height: 390.547px;
+        padding: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size:62px;
+        background-color: #2cb49e;
+        color:#15352f;
+        font-family:Exan-Regular, Exan;
+        letter-spacing:0.1000031502016129em;
+    }
+    .contact-form-panel ::-webkit-input-placeholder { 
+        color:#1a1a1a;
+    }
+    .contact-form-panel :-ms-input-placeholder { 
+        color:#1a1a1a;
+    }
+      
+    .contact-form-panel ::placeholder {
+        color:#1a1a1a;
+    }
+    .contact-form-panel .input{
+        background-color: white;
+        padding: 13.825px;
+        height: 16.02px;
+        width: calc(100% - 13.825px*2);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size:11.847869873046875px;
+        color:#1a1a1a;
+        font-family:Roboto-Medium, Roboto;
+        letter-spacing:0.09998171191893486em;
+    }
+    .contact-form-panel .user-type{
+        line-height: 16.02px;
+        font-size: 13px;
+        height: 20px;
+        width: calc(100%/3 - 30px);
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+        float: left;
+    }
+    .contact-form-panel .text{
+        font-size:18px;
+        color:#491f10;
+        font-family:Roboto-Black, Roboto;
+        letter-spacing:0.2000054253472222em;
+        margin-top: 10px;
+        margin-bottom: 46px;
+    }
+    .contact-form-panel .button.input{
+        line-height: 18px;
+        height: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .contact-form-panel .button input{
+        font-size:18px;
+        padding: 0px;
+        color:#ff530d;
+        height: 18px;
+        font-family:Roboto-Black, Roboto;
+        letter-spacing:0.2000054253472222em;
+    }
+    .border-bottom-2{
+        border: none;
+        border-bottom: 2px solid;
+    }
+    
+}

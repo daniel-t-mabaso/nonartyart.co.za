@@ -1,0 +1,258 @@
+@font-face
+  {
+    font-family: gruppo;
+    src: url(Gruppo-Regular.ttf)
+  }
+  a{text-decoration: none;}
+html, body, #container
+	{
+		position: absolute;
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		height: 100%;
+		
+	}
+body
+	{
+		background-color: #efefef;
+	}
+	
+
+[id*="ROW-"]
+	{
+		position: relative;
+		height: 30px;
+		width: 100%;
+		margin-top: 2px;
+		z-index: 1px;
+		text-align: center;
+	}
+.COL-6
+	{
+		position: relative;
+		z-index: 0;
+		width: 100%;
+		height: 100%;
+	}
+#container{
+    width: calc(100% - 50px*2);
+    height: calc(100% - 50px*2);
+    padding: 50px;
+}
+#ROW-2
+	{
+		position:absolute;
+		height: 250px;
+		top: 0px;
+		z-index:0;
+	}
+
+#social-ribon
+	{
+		padding-top: 5px;
+		position: fixed;
+		right: 10px;
+		top: -2px;
+		width: 50px;
+		height: 105px;
+		background-color: #7b7b7b;
+		border-radius: 0px 0px 7px 7px;
+		z-index: 3;
+		box-shadow: 1px 1px 1px 0px #3b3b3b;
+	}
+.icon
+	{
+		position: relative;
+		z-index: 3;
+		width: 40px;
+		margin-left: 5px;
+		margin-top: 3px;
+	}
+#logo-container
+	{
+		width: 100px;
+		height: 100px;
+		margin: auto;
+		margin-top: 30px;
+	}
+[id*="text-"]
+	{
+		text-align: center;
+		font-family: sans-serif;
+	}
+	.download-button{
+	    cursor: pointer;
+	    border-radius: 5px;
+	    background-color: black;
+	    color: white;
+	    width: 150px;
+	    height: 30px;
+	    line-height: 30px;
+	    padding: 10px;
+	    margin: 0 auto;
+	}
+#ROW-3
+	{
+		margin-top: 30px;
+		height: 700px;
+	}
+#text-large	{
+	font-size: 25px;
+	text-shadow: 1px 1px gray;
+	font-weight: 100;
+}
+#letter
+	{
+		/*-webkit-text-stroke: 2px black;*/
+		text-shadow: 2px 2px black;
+		color: white;
+		font-size: 50px;
+	}
+	
+#text-medium
+	{
+		padding-top: 25px;
+		font-size: 15px;
+		text-align: left;
+		margin-left: 10px;
+		font-family: gruppo;
+	}
+#text-small
+	{
+		font-family: gruppo;
+		color: #4f4f4f;
+		font-size: 18px;
+	}
+#album{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 1px #282828;
+}
+#buttons-container
+	{
+		position: relative;
+		margin: 0 auto;
+		width: 650px;
+		height: 25px;
+	}
+ol{
+		font-size: 25px;
+		font-family: gruppo;
+		font-weight: bolder;
+    text-align: left;
+}
+li{padding: 15px;}
+.button
+	{
+		font-size: 19px;
+		font-family: gruppo;
+		font-weight: bolder;
+	}
+#button:hover
+	{
+		background-color: gold;
+		font-weight: bold;
+		color: black;
+		box-shadow: 1px 1px 1px 0px #608060;
+	}
+#ROW-6
+		{
+			position: fixed;
+			bottom: 0px;
+			height: 60px;
+			z-index: 1px;
+		}
+#tilted-panel
+	{
+		position: fixed;
+		bottom: -145px;
+		left: -10px;
+		width: 110%;
+		height: 200px;
+		background-color: white;
+		z-index: -1px;
+		-ms-transform: rotate(2deg);
+		transform: rotate(2deg);
+	}
+#ROW-b{height: 75px;}
+@media only screen and (min-width: 736px) and (max-width:1080px)
+	{
+		#social-ribon
+			{
+				right: 40px;
+			}
+		#logo-container
+			{
+				width: 200px;
+				height: 200px;
+				margin-top: 30px;
+				margin-left: 50px;
+			}
+		#text-large
+			{
+				font-size: 40px;
+			}
+		#text-medium
+			{
+				font-size: 23px;
+				text-align: center;
+				margin-left: 0px;
+			}
+		#letter
+			{
+				color: white;
+				font-size: 70px;
+			}
+		#ROW-3
+			{
+				margin-top: 50px;
+				height: 300px;
+			}
+	}
+@media only screen and (min-width: 1080px)
+	{
+#album{
+    width: 250px;
+    height: 250px;
+    display:block;
+    left: 40px;
+    top: 70px;}
+		#social-ribon
+			{
+				right: 40px;
+			}
+		#logo-container
+			{
+				width:230px;
+				height: 230px;
+				margin-top: 30px;
+				margin-left: 80px;
+			}
+		#text-large
+			{
+				
+				font-size: 50px;
+				font-family: sans-serif;
+			}
+		#text-medium
+			{
+				font-size: 25px;
+				text-align: center;
+				margin-left: 0px;
+			}
+		#letter
+			{
+				color: white;
+				font-size: 100px;
+				
+			}
+		#ROW-3
+			{
+				margin-top: 50px;
+				height: 400px;
+			}
+	}

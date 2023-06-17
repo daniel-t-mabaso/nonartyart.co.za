@@ -1,0 +1,59 @@
+.main-title{
+    font-family: 'Times New Roman',TimesNewRoman,Times,Baskerville,Georgia,serif;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 400;
+}
+.extra-large-text{
+    font-family: 'Times New Roman',TimesNewRoman,Times,Baskerville,Georgia,serif;
+    margin-top: 20px;
+    font-size: 96px;
+    line-height: 96px;
+    font-weight: 400;
+}
+.medium-txt{
+    font-family: 'Times New Roman',TimesNewRoman,Times,Baskerville,Georgia,serif;
+    margin-top: 20px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+}
+.normal-txt{
+    font-family: 'Times New Roman',TimesNewRoman,Times,Baskerville,Georgia,serif;
+    margin-top: 20px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.heading{
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+h1, h2,h3,h4,p{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.center-txt{
+    text-align: center;
+}
+
+#header-logo, #footer-logo{
+    font-size: 26px;
+}
+.bold{
+    font-weight: 500;
+}

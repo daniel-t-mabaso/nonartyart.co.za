@@ -1,0 +1,151 @@
+@media only screen and (min-width: 765px) and (max-width: 1080px){
+    .logo{
+        height: 100px;
+    }
+    .content{
+        width: 650px;
+        margin: 0 auto;
+    }
+    #header{
+        height: 80px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #header-logo{
+        width: 45%;
+        float: left;
+    }
+    #header-navigation{
+        width: 55%;
+        height: 100px;
+        line-height: 100px;
+        float: left;
+        text-align: right;
+    }
+    #header .navigation-item{
+        margin-left: 40px;
+        color: rgba(0,0,0,.7);
+    }
+    #footer-row-extra > h1{
+        margin-bottom: 50px;
+    }
+    #footer .navigation-item{
+        margin-right: 30px;
+        margin-left: 10px;
+        color: rgba(0,0,0,.7);
+    }
+    #footer-logo > img{
+        margin-bottom: 10px;
+    }
+    #footer-navigation > div{
+        padding-top: 25px;
+        font-weight: normal;
+        font-size: 18px;
+        padding-bottom: 60px;
+        margin-left: 10px;
+    }
+    #footer-navigation{
+        padding-top: 0px !important;
+        padding-bottom: 20px;
+    }
+    /* Home Page */
+    #home-row-1 > div{
+        margin-top: max(calc(100%/2 - 120px - 60px - 300px), 0);
+    }
+    #tag-body-panel{
+        width: 50%;
+        margin-left: 50%;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    #home-row-1 > div > div.navigation-arrow-panel.center{
+        width: 40px;
+        cursor: pointer;
+    }
+    #home-row-3 > div > div.half-width.text-box{
+        width: 600px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+    #home-row-3 > div > div.half-width.text-box > p{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    #left-box-panel, #center-box-panel{
+        padding: 60px;
+        width: 70%;
+    }
+    #left-box-panel{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    #efficiency-tag-panel{
+        text-align: right;
+        margin-right: 20px;
+    }
+    #accuracy-tag-panel{
+        margin-left: 80px;
+    }
+    #home-row-4 > div > h4{
+        margin-bottom: 10px;
+    }
+    /* Approach Page */
+    #approach-row-1{
+        min-height: 144px !important;
+        padding-bottom: 200px;
+    }
+    #approach-row-3 > div > p.appear-inview.fadeIn3{
+        margin-top: 20px;
+    }
+    /* About Page */
+    #center-box-panel > h2{
+        margin-bottom: 20px;
+    }
+    #about-row-3 > div > h1{
+        text-align: center;
+    }
+    #team-profiles-panel{
+        margin: 0 auto;
+        width: calc(360px * 2);
+    }
+    .member-profile{
+        width: 210px;
+        height: 300px;
+        display: inline-block;
+        text-align: center;
+        padding: 20px;
+        margin: calc(50px - calc( calc(720px - 650px) / 4));
+        margin-bottom: 0px;
+
+    }
+    .profile-picture > img{
+        max-width: 210px;
+        max-height: 250px;
+        width: auto;
+        height: auto;
+    }
+    .member-profile p{
+        margin-top: 15px;
+        line-height: 20px;
+    }
+    .profile-picture{
+        width: 210px;
+        height: 245px;
+        margin: 0 auto;
+        background-color: grey;
+        overflow: hidden;
+    }
+    /* Contact Page */
+    #contact-row-1{
+        text-align: center;
+        min-height: 400px !important; 
+    }
+    #contact-row-1 > div > div:nth-child(4) > div:nth-child(3), #contact-row-1 > div > div:nth-child(4) > div:nth-child(4){
+        margin-top: 30px;
+    }
+    
+    #contact-row-1 > div > div:nth-child(4){
+        height: 70px;
+    }
+}

@@ -1,0 +1,148 @@
+/* Font style */
+.book{
+    /* normal font style */
+    font-weight: normal;
+}
+.bold{
+    /* Bold font style */
+    font-weight: bold;
+}
+.black{
+    /* Bold font style */
+    font-weight: bolder;
+}
+.italic{
+    /* Italic font style */
+    font-style: italic;
+}
+.underline{
+    /* Underlined font */
+    text-decoration: underline;
+}
+.overline{
+    /* Underlined font */
+    text-decoration: overline;
+}
+.linethrough{
+    /* Underlined font */
+    text-decoration: line-through;
+}
+
+/* Font styles */
+.huge{
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 110pt;vertical-align: top;
+}
+.huge-2{
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 160pt;
+}
+.title{
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1.868pt;
+    font-size: 45px;
+}
+.large-title{
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 37px;
+}
+.extra-large-title{
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 70px;
+}
+.heading-1{
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 2pt;
+    font-size: 52px;
+}
+.heading-2{
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1.5pt;
+    font-size: 27px;
+}
+.logo-heading{
+    font-family: 'Avenir Black', sans-serif;
+    font-size: 27px;
+
+}
+.logo-type{
+    font-family: 'Avenir Black', sans-serif;
+}
+.heading-3{
+    font-family: 'Roboto Medium', sans-serif;
+    letter-spacing: 1pt;
+    font-size: 17px;
+}
+.heading-4{
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 16px;
+}
+.heading-5{
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 14px;
+}
+.body-1{
+    font-family: 'Roboto Medium', sans-serif;
+    letter-spacing: 0.972pt;
+    font-size: 24px;
+}
+.body-2{
+    font-family: 'Roboto Medium', sans-serif;
+    letter-spacing: 0.747pt;
+    font-size: 21px;
+}
+.body-3{
+    font-family: 'Avenir Medium', sans-serif;
+    letter-spacing: 0.1pt;
+    font-size: 13px;
+}
+.body-6{
+    font-family: 'Avenir', sans-serif;
+    letter-spacing: 0.1pt;
+    font-size: 17px
+}
+.body-4{
+    font-family: 'Avenir Medium', sans-serif;
+    font-size: 10px
+}
+.body-5{
+    font-family: 'Avenir Medium', sans-serif;
+    font-size: 8px
+}
+.navigation-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px
+}
+.navigation-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.quote{
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 0pt;
+    font-size: 31px;}
+.input-1{
+    font-family: 'Avenir Heavy', sans-serif;
+    font-size: 12px;}
+
+.input-2{
+    font-family: 'Avenir Bold', sans-serif;
+    font-size: 10px;}
+
+/* Alignment */
+.center-txt{
+    text-align: center;
+}
+.left-txt{
+    text-align: left;
+}
+.right-txt{
+    text-align: right;
+}
+
+h1, h2, h3, h4, h5, p{
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}

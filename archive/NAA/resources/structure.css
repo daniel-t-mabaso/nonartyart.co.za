@@ -1,0 +1,517 @@
+/*Scroll bar*/
+::-webkit-scrollbar {
+    width: 0px;
+}
+#CLOSE:hover
+  {
+    border: 1px solid red;
+    cursor: pointer;
+  }
+#CLOSE
+  {  left: 272px;
+    position: fixed;
+    z-index: 4;
+    bottom: 147px;
+
+
+    padding: 2px;
+
+    background-color: #3f94ba;
+    border-radius: 5px 5px 5px 5px;
+  }
+#TIPS,#TIPS-BG
+  {
+    height: 150px;
+    width: 270px;
+  }
+#TIPS{
+    position: fixed;
+    z-index: 3;
+    bottom: 20px;
+    left: 20px;
+
+    margin: 0px;
+    border-radius: 7px 7px 7px 7px;
+
+    box-shadow: 1px 1px 1px 1px #3b3b3b;
+  }
+
+#TIPS-BG{    position: fixed;
+    z-index: 3;
+    bottom: 20px;
+    left: 20px;
+    margin: 0px;
+    background-color: #7fb4ba;
+    border-radius: 7px 7px 7px 7px;
+    opacity: 0.9;
+  }
+#SOCIAL-BAR
+  {
+    position: fixed;
+    z-index: 5;
+    text-align: center;
+    width: 120px;
+    height: 34px;
+    padding-top: 5px;
+
+    bottom:0px;
+    right: 50px;
+
+    box-shadow: 1px 1px 1px 0px gray;
+    border: 1px 1px 1px 0px solid white;
+    border-radius: 7px 7px 0px 0px;
+
+    background-color: #7b7b7b;
+  }
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color:gray;
+}
+
+::-webkit-scrollbar-thumb {
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+@font-face
+  {
+    font-family: gruppo;
+    src: url(Gruppo-Regular.ttf)
+  }
+a
+  {
+    text-decoration: none;
+  }
+#MENU a{color:black;}
+@font-face
+  {
+    font-family: KaushanScript;
+    src: url(KaushanScript-Regular.ttf)
+  }
+.BLUR{
+  position:fixed;
+  z-index: 3;
+  background-color: black;
+  width:100%;
+  height:100%;
+
+  opacity: 0.6;}
+HTML, Body, #CONTAINER-1
+  {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+
+    font-family: gruppo;
+    background-color: #f3f3f3;
+  }
+
+.BG-COVER{
+  position: fixed;
+  z-index: 0;
+
+  width:100%;
+  height:inherit;
+
+  opacity: 0.4;
+
+  background-image: url(./background.png);
+  background-size:cover ;
+  background-repeat: repeat-y;
+  background-position: center;
+
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+@media only screen and (max-width:301px)
+  {
+    #CLOSE
+      {  left: 202px;}
+    #TIPS,#TIPS-BG
+      {
+        width: 200px;
+      }
+    #MENU
+      {
+      top:-40px;
+      }
+    #LOGO
+      {
+        position: relative;
+        z-index: 4;
+      }
+    #MENU .TEXT
+      {
+        margin-left: 130px;
+      }
+  }
+@media only screen and (min-width:302px)and(max-width:736px)
+  {
+
+    #MENU .TEXT
+      {
+        width:50px;
+        margin:0px;
+        margin-top: 15px;
+        margin-bottom: 9px;
+        margin-left:85px;
+        text-align: right;
+      }
+    .BG-COVER
+      {
+        background-color: white;
+        opacity:1;
+
+      }
+  }
+/*attributes*/
+div
+  {
+    margin:auto;
+  }
+
+/*classes*/
+[class*="COL-"]
+  {
+    width:100%;
+  }
+.MENU-ITEM
+  {
+    background-color: #d1d1d1;
+    border-top: 1px solid gray;
+
+    height:30px;
+    width:220px;
+
+    font-size: 30px;
+    text-align: left;
+    padding-left: 5px;
+
+    display: none;
+  }
+.MENU-ITEM:hover
+  {
+    background-color: #f3a65b;
+  }
+/*IDs*/
+
+#LOGO .NAA-ICON
+  {
+    display:none;
+  }
+#CUSTOMER
+  {
+    background-color: gold;
+    border-bottom: 1px solid;
+    height:50px;
+    width:500px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 5px;
+  }
+#FOOTER
+  {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 40px;
+    background-color:#c0c0c0;
+    text-align: center;
+  }
+#HEADER-BG
+  {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 40px;
+    background-color:#c1c1c1;
+    opacity: 1;
+    box-shadow: 0px 1px 1px 0px #000000;
+  }
+#HEADER
+  {
+    position: fixed;
+    z-index: 3;
+    top:0px;
+    width: 100%;
+    height: 40px;
+  }
+
+
+#TITLE
+  {
+    font-size: 22px;
+    font-family:KaushanScript;
+    font-weight:100;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #3a3a3a;
+  }
+#MOTTO
+  {
+    margin-right: -25px;
+    font-size: 18px;
+    font-family: monospace;
+    margin: 5px;
+    height:30px;
+  }
+
+#LOGO
+  {
+    text-align: center;
+    font-family:monospace;
+    width:120px;
+    height:40px;
+
+    float: left;
+
+    color:#ffffff;
+    background-color: #000000;
+  }
+#MENU
+  {
+
+    position:relative;
+    list-style: none;
+    display:inline;
+    width:220px;
+    padding: 0px;
+    margin: 0px;
+    height:40px;
+    float: right;
+    text-align: center;
+  }
+
+#MENU-LABEL
+  {
+    margin: 0;
+    height: 40px;
+  }
+ #MENU:hover .TEXT{color: gold;
+ font-weight: bolder;}
+#MENU:hover .MENU-ITEM
+  {
+    display: block;
+  }
+
+.TEXT
+  {
+    margin: 11px;
+  }
+
+#ROW-1
+  {
+    position: relative;
+    z-index: 1;
+
+    top:-18px;
+    padding-top:58px;
+    width: 100%;
+
+    color:#ffffff;
+    overflow: hidden;
+    height:1200px;
+
+    text-align: center;
+  }
+.HEADING
+    {
+      padding-top: 10px;
+      padding-left: 20px;
+      font-size: 40px;
+      margin: 0px;
+    }
+.MENU-ITEM-EXPAND
+  {
+    position:absolute;
+    padding-top:40px;
+    width:80px;
+    display: none;
+  }
+.MENU-SUBITEM
+  {
+    list-style: none;
+    display:none;
+    height: 30px;
+    background-color: #f5f5f5;
+    width: 160px;
+    padding-top: 11px;
+    margin-left: -40px;
+
+    text-align: left;
+    padding-left: 5px;
+    box-shadow: 1px 3px 1px 0px #5b5b5b;
+  }
+.MENU-SUBITEM:hover
+  {
+    background-color: gold;
+  }
+.MENU-ITEM:hover .MENU-ITEM-EXPAND:hover .MENU-SUBITEM
+  {
+    display:none;
+  }
+.MENU .TEXT{width:220px; text-align: center;}
+
+#LOGO .TEXT
+{ margin-left:3px;
+  margin-top: 8px;
+  color:white;
+}
+#LOGO .TEXT
+  {
+    display:none;
+}
+#LOGO .NAA-ICON
+{
+  display:block;
+  width: 32px;
+  height:30px;
+  margin-top: -2px;
+  margin-left: 11px;
+}
+#LOGO
+  {
+    width:65px;
+  }
+@media only screen and (min-width:736px) and (max-width:1080px)
+  {
+    #CLOSE
+      {  left: 402px;}
+    #TIPS,#TIPS-BG
+      {
+        width: 400px;
+      }
+    #TITLE
+      {
+        font-size: 36px;
+      }
+    .MENU-ITEM:hover .MENU-ITEM-EXPAND:hover .MENU-SUBITEM
+      {
+        display:block;
+      }
+      .MENU-ITEM-EXPAND
+        {
+          display: block;
+          position:absolute;
+          padding-top:41px;
+          width:50px;
+          top:0px;
+        }
+    #LOGO .TEXT
+      {
+        display:none;
+      }
+    #LOGO .NAA-ICON
+      {
+        display:block;
+        width: 32px;
+        height:30px;
+        margin-top: -2px;
+        margin-left: 11px;
+      }
+    .HEADING
+        {
+          padding: 40px;
+          padding-left: 50px;
+        }
+    #MENU .TEXT
+      {
+        display:none;
+      }
+    .MENU-ITEM
+      {
+        border-top: none;
+        border-bottom: 1px;
+        display:inline-block;
+        width:90px;
+        height: 28px;
+        padding-top: 11px;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 12px;
+        background: none;
+      }
+    #MENU:hover .MENU-ITEM
+      {
+        display: inline-block;
+      }
+    #MENU
+      {
+        width:auto;
+      }
+    [class*="COL-"]
+      {
+        width:33.33%;
+        float:left;
+      }
+    #LOGO
+      {
+        width:65px;
+      }
+}
+
+@media only screen and (min-width:1080px)
+  {
+    #CLOSE
+      {  left: 402px;}
+    #TIPS,#TIPS-BG
+      {
+        width: 400px;
+      }
+    #TITLE
+      {
+        font-size: 45px;
+      }
+    .MENU-ITEM:hover .MENU-ITEM-EXPAND:hover .MENU-SUBITEM
+      {
+        display:block;
+      }
+    .MENU-ITEM-EXPAND
+      {
+        position:absolute;
+        padding-top:41px;
+        width:80px;
+        left:0px;
+        top:0px;
+        display: inline-block;
+      }
+    .HEADING
+      {
+        padding: 30px;
+        padding-left: 200px;
+      }
+    #MENU .TEXT
+      {
+        display:none;
+      }
+    .MENU-ITEM
+      {
+        border-top: none;
+        border-bottom: 1px;
+        display:inline-block;
+        width:120px;
+        height: 23px;
+        padding-top: 16px;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 14px;
+        background: none;
+      }
+
+    #MENU:hover .MENU-ITEM
+      {
+        display: inline-block;
+      }
+    #MENU
+      {
+        width:auto;
+      }
+    [class*="COL-"]
+      {
+        width:33.33%;
+        float:left;
+        text-align: center;
+      }
+
+  }
+/*end of basic structure css*/

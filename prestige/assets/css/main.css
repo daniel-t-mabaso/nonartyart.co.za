@@ -1,0 +1,976 @@
+/***
+* The following CSS script was written with a mobile first approach in mind.
+* All default scripts/code is optimised, first, for mobile.
+* If other screen dimensions require extra styling, that will be done under it's specific @media block.
+***/
+
+
+/*Default mobile first code for all screens*/
+body,html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: cornflowerblue;
+}
+
+[id*="row-"]{
+    position: relative;
+    margin: 0;
+    width: calc(100% - 100px);
+    padding: 50px;
+    height: fit-content;
+    min-height: 300px;
+
+    overflow:hidden;
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+#row-1{
+     width: 100%;
+     padding: 0px;
+}
+#row-header, #row-footer{
+    height: 50px;
+    padding: 20px;
+    min-height: 50px;
+    width: calc(100% - 40px);
+
+}
+
+#row-header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    overflow: visible;
+}
+
+#header-logo{
+    height: 50px;
+    width: 150px;
+    line-height: 50px;
+    font-size: 20px;
+
+    text-align: center;
+    color: #efefef;
+    margin-left: 10%;
+
+    float: left;
+}
+#header-navigation{
+    height: 50px;
+
+    text-align: center;
+    line-height: 50px;
+
+
+    float: right;
+}
+
+#nav-bar{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    right: 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+#hamburger{
+    display: block;
+    text-align: right;
+    height: 30px;
+    margin: 20px;
+    margin-right: 50px;
+
+}
+
+#hamburger-img{
+    width: 30px;
+}
+
+.nav-item{
+    font-size: 10pt;
+    display: none;
+    margin: 0;
+    background-color: #282828;
+}
+
+#nav-bar:hover  .nav-item {
+    animation: nav-appear 0.11s ease-in-out ;
+    display: block;
+}
+
+.nav-item:hover{
+    background-color: #585858;
+}
+.extra-small-image{
+    width: 50px;
+}
+
+#content-container{
+    width: 100%;
+    min-height: 350px;
+    height: fit-content;
+}
+
+#placeholder{
+    position: absolute;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    top: calc(125px);
+}
+#placeholder h1{
+    font-size: calc(14px + 2em);
+    animation: bounce 1.1s;
+}
+#placeholder {
+    animation: fade-in 3.8s;
+}
+
+
+
+#row-footer{
+    height: 170px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+   
+}
+#quick-links-panel{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+#quick-links-panel ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+
+    font-weight: bold;
+}
+#quick-links-panel li{
+    padding-left: 0px;
+
+    font-weight: normal;
+    color: #7b7b7b;
+}
+.quick-links{
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#developer-panel{
+    height: fit-content;
+    line-height: 40px;
+    width: 100%;
+    font-size: 10pt;
+    color: #585858;
+    text-align: center;
+}
+
+
+
+.login-panel{
+    width: 270px;
+    height: fit-content;
+    min-height: 250px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #282828;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.login-error{
+    color: crimson;
+    border-radius: 5px;
+    border: 1px solid crimson;
+    width: 260px;
+    padding-left: 10px;
+}
+#title{
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+}
+.login-form{
+    margin: 0px;
+    width: 260px;
+    align-self: center;
+}
+.form-input{
+    width: 260px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+#row-2{
+    background: none;
+    min-height: 50px;
+}
+.btn{
+    width: 270px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #7b7b7b;
+}
+.solution-selection-panel{
+    
+    font-weight: normal;
+}
+
+.solution-selection-panel:hover{
+    color: white;
+    cursor: pointer;
+}
+.solution-selection-panel div{
+    width: 100%;
+    text-align: center;
+}
+#solutions-navigation-panel{
+    float: left;
+    position: absolute;
+    margin:0 auto;
+    padding: 30px;
+    border-right: 1px solid;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+.solution-title{
+    font-size: 18px;
+    font-weight: 100;
+}
+.solution-selection-panel:hover .solution-title{
+    text-decoration: underline;
+}
+.arrow-panel{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+.landing-panel{
+    margin-top: 90px;
+    min-height: 450px;
+    background-image: url('../images/car-bg.jpg');
+    background-size: cover;
+    padding: 50px;
+    font-weight: 100;
+    background-blend-mode: overlay;
+    background-color: #282828;
+    -webkit-clip-path: polygon(100% 0, 100% 59%, 35% 100%, 0 73%, 0 0);
+    clip-path: polygon(100% 0, 100% 59%, 35% 100%, 0 73%, 0 0);
+}
+.landing-panel h1{
+    margin: 0px;
+    margin-right: 15%;
+    font-size: 45px;
+    text-align: right;
+    padding: 0px;
+    padding-top: 100px;
+    font-weight: 500;
+    animation: fade-in 1.4s;
+}
+#row-1 h1{
+    margin: 0px;
+    text-align: right;
+    margin-right: 15%;
+    font-size: 55px;
+    padding: 0px;
+    color: #efefef;
+    padding-top: 0px;
+}
+.mobile-app{
+    margin-top:-250px;
+    width: calc(100% / 3);
+    animation: float-left 1.6s;
+}
+.landing-panel h3{
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    margin-right: 15%;
+    font-size: 24px;
+    font-weight: 100;
+    animation: fade-in 1.4s;
+}
+#row-1{
+    position: relative;
+    min-height: 350px;
+    height: fit-content;
+}
+
+
+.section-heading{
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    padding-right: 15px;
+    text-align: right;
+    float: left;
+    margin-left: -50px;
+    font-weight: 400;
+}
+
+
+#row-1 .col-3, #row-1 .col-9{
+    width: calc(100%);
+    text-align: center;
+    text-orientation: sideways-right;
+    float: left;
+    height: 100%;
+}
+
+.half-height{
+    width: 100%;
+    height: 50%;
+}
+
+.sliding-panel-container{
+    list-style: none;
+    width: 100%;
+    height:100%;
+    padding: 0px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.sliding-panel{
+    width: 100%;
+    height: 100%;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 175px;
+    float: left;
+}
+.sliding-panel-container div a{
+    text-decoration: underline;
+}
+.sliding-panel-container div{
+    padding: 20px;
+    padding-top: 0;
+    display: none;
+}
+
+#premium-hire{
+    background-image: url("../images/car-rental.jpg");
+    background-size: cover;
+    background-color: #282828;
+    background-blend-mode: overlay;
+}
+
+#premium-storage{
+    background-image: url("../images/car-storage.jpg");
+    background-size: cover;
+    background-color: #282828;
+    background-blend-mode: overlay;
+}
+
+#premium-treatment{
+    background-image: url("../images/car_treatment.jpg");
+    background-size: cover;
+    background-color: #282828;
+    background-blend-mode: overlay;
+}
+
+#classic-hire{
+    background-image: url("../images/classic-car-hire.jpg");
+    background-size: cover;
+    background-color: #282828;
+    background-blend-mode: overlay;
+}
+
+.sliding-panel span{
+    position: inherit;
+    margin: 0 auto;
+    height: 36px;
+    margin-top: 90px;
+}
+
+
+
+
+
+
+.solution-panel{
+    border-radius: 2px;
+    width: 70%;
+    min-height: 180px;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 70px; 
+    padding: 50px;
+}
+.solution-thumbnail{
+    height: 200px;
+    width: 260px;
+    float:left;
+    margin-right: 60px;
+    overflow: hidden;
+    text-align: center;
+}
+.solution-thumbnail img{
+    height: 100%;
+}
+.solution-panel h3{
+    margin-top: 0;
+    padding:0px;
+}
+
+
+#header-logo img{
+    margin-bottom: -2px;
+}
+
+
+
+
+
+/*Small screen portrait mobile view*/
+@media only screen and (max-width: 360px){
+    
+#contact-img-panel{display: none;
+}
+.nav-item{
+    width: 320px;}
+
+    #content-container{
+        height: calc(100% - 210px);
+        min-height: 590px;
+    }
+    #row-footer{
+        height: 380px;}
+    .login-panel{
+        width: 230px;
+        padding: 40px;
+    }
+    #header-logo{
+        line-height: 80px;
+        margin-left: 30px;
+    }
+    .login-error{
+        width: 220px;
+    }
+        .login-form{
+        width: 220px;
+    }
+    .form-input{
+        width: 220px;
+        
+    }
+    .landing-panel{
+        -webkit-clip-path: polygon(100% 100%, 100% 0%, 0 0, 0% 100%);
+        clip-path: polygon(100% 100%, 100% 0%, 0 0, 0% 100%);
+        background-image: none;
+        
+    }
+    .btn{
+        width: 230px;}
+    .landing-panel h1{
+        padding-top: 0px;
+        font-size: 36px;
+    }
+    .solution-panel{
+        padding-left: 0px;
+        width: 100%;
+    }
+.solution-thumbnail{
+    display:none;
+}
+    #solutions .landing-panel h1,#solutions .landing-panel h3{
+        display: none;
+    }
+    .solution-title{
+        font-size: 20px;
+    }
+
+    #solutions-navigation-panel{
+        margin-left: 0%;
+        float: none;
+        border: none;
+        margin: 0 auto;
+    }
+
+    #row-2{
+        min-height: 100px;
+    }
+    
+}
+
+/*Large screen portrait mobile view*/
+@media only screen  and (min-width: 360px) and (max-width: 450px){
+    #contact-img-panel{display: none;
+    }
+    .solution-title{
+        font-size: 20px;
+    }
+    
+    .solution-panel{
+        padding-left: 0px;
+        width: 100%;
+    }
+.solution-thumbnail{
+    display:none;
+}
+#solutions-navigation-panel{
+    margin-left: 10%;
+}
+    #content-container{
+        min-height: calc(100% - 210px);
+        height: fit-content;
+    }
+    #row-footer{
+        height: 380px;}
+    .login-panel{
+        padding: 30px;
+    }
+    .landing-panel{
+        height: 200px;
+        -webkit-clip-path: polygon(100% 100%, 100% 0%, 0 0, 0% 100%);
+        clip-path: polygon(100% 100%, 100% 0%, 0 0, 0% 100%);
+        background-image: none;
+            }       
+    .landing-panel h1{
+        padding-top: 50px;
+        margin: 0;
+        font-size: 46px;
+    }
+    
+    #header-logo{
+        line-height: 70px;
+        margin-left: 30px;
+    }
+    .landing-panel h3{
+        margin: 0px;
+        font-size: 26px;
+    }
+    
+    #solutions .landing-panel h1,#solutions .landing-panel h3{
+        display: none;
+    }
+.nav-item{
+    width: 360px;}
+
+}
+/*Landscape mobile view*/
+@media only screen and (min-width: 450px) and (max-width: 736px){
+    #contact-img-panel{display: none;
+    }
+    .nav-item{
+    width: 360px;}
+    .landing-panel{
+        height: 200px;
+        -webkit-clip-path: polygon(100% 100%, 100% 0%, 0 0, 0% 100%);
+        clip-path: polygon(100% 100%, 100% 0%, 0 0, 0% 100%);
+        background-image: none;
+    }
+    .solution-thumbnail{
+        display:none;
+    }
+    #solutions .landing-panel h1,#solutions .landing-panel h3{
+        float: right;
+        padding: 0px;
+        margin: 0px;
+        margin-right: 30px;
+        width: 150px;
+        font-size: 22px;
+    }    
+    #solutions .landing-panel h1{
+        font-size: 32px;
+        margin-top: 65px;
+    }
+    #content-container{
+        height: calc(100% - 210px);
+        height: fit-content;
+    }
+    
+    #header-logo{
+        line-height: 70px;
+        margin-left: 30px;
+    }
+    #row-footer{
+        height: 380px;}
+
+}
+/*Table view*/
+@media only screen and (min-width: 736px) and (max-width: 1080px){
+    #contact-img-panel{display: none;
+    }
+    #header-navigation{
+        height: 50px;
+    
+        text-align: center;
+        line-height: 50px;
+    
+        margin-right: 10%;
+    
+        float: right;
+    }
+    
+    #nav-bar{
+        list-style: none;
+        padding: 0px;
+        margin: 0;
+        margin-right: 10%;
+    }
+    #hamburger{
+        display: none;
+    }
+    .nav-item{
+        width: 80px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: inline-block;
+        background-color: inherit;
+    }
+    #nav-bar:hover  .nav-item {
+        display: inline-block;
+        background-color: inherit;
+        animation: none;
+    }
+    .nav-item:hover {
+        color: cornflowerblue;
+    }
+    
+    #content-container{
+        min-height: 450px;
+        height: fit-content;
+
+    }
+    #placeholder{
+        position: absolute;
+        text-align: center;
+        height: 200px;
+        width: 100%;
+        top:120px;
+    }
+    #row-1 .col-3, #row-1 .col-9{
+        width: calc(100% / 2);
+        height: 100%;
+    }
+    #row-1{
+        height: 350px;
+    }
+
+    .quick-links{
+        float: left;
+        text-align: center;
+        width: calc(100% / 3);
+    }
+    
+    #solutions .landing-panel h1,#solutions .landing-panel h3{
+        float: right;
+        padding: 0px;
+        margin: 0px;
+        margin-right: 10%;
+        width: 250px;
+        font-size: 22px;
+    }    
+    #solutions .landing-panel h1{
+        font-size: 32px;
+        margin-top: 65px;
+    }
+.sliding-panel-container:hover div{
+    animation: fade-in-2  14s ;
+    display: block;
+}
+
+.sliding-panel-container:hover .sliding-panel{
+    animation: slide-left 15s;
+    cursor: pointer;
+}
+
+
+div .background{
+    width: 100%;
+    height: calc(100% + 100px);
+    position: absolute;
+    z-index:-1;
+    -webkit-clip-path: polygon(0 0, 60% 0, 40% 100%, 0% 100%);
+    clip-path: polygon(0 0, 60% 0, 40% 100%, 0% 100%);
+}
+#content-container .background{
+background-image: url("../images/car-bg.jpg");
+background-size: cover;
+background-color: #282828;
+background-blend-mode: overlay;
+    
+}
+
+#contact-img-panel{
+    width: 300px;
+    margin: 30px;
+    background-image: url('../images/black-telephone-line.jpg');
+    background-size: cover;
+    margin-left: 50px;
+    border-left: 10px solid #282828;
+    height: 300px;
+    float: right;
+}
+
+}
+/*Desktop view*/
+@media only screen and (min-width: 1080px){
+    #header-navigation{
+        height: 50px;
+    
+        text-align: center;
+        line-height: 50px;
+    
+        margin-right: 10%;
+    
+        float: right;
+    }
+    
+    #nav-bar{
+        list-style: none;
+        padding: 0px;
+        margin: 0;
+        margin-right: 10%;
+    }
+    #hamburger{
+        display: none;
+    }
+    .anchor{
+        position: absolute;
+        z-index: -1;
+        margin-top: -85px;
+    }
+    .nav-item{
+        min-width: 70px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: inline-block;
+        background-color: inherit;
+    }
+    #nav-bar:hover  .nav-item {
+        display: inline-block;
+        background-color: inherit;
+        animation: none;
+    }
+    #content-container{
+ 
+        min-height: 450px;
+        height: calc(100% - 90px);
+
+    }
+    
+    #placeholder{
+        position: absolute;
+        text-align: right;
+        height: 200px;
+        width: calc(100% - 10%);
+        padding-right: 10%;
+        top: calc(50% - 140px);
+    }
+    #quick-links-panel{
+        height: 90px;
+        width: 70%;
+    }
+    #row-1 .col-3, #row-1 .col-9{
+        width: calc(100% / 2);
+        height: 100%;
+    }
+    #row-1{
+        height: 350px;
+    }
+    .quick-links{
+        float: left;
+        text-align: center;
+        width: calc(100% / 3);
+    }
+
+    div .background{
+        width: 100%;
+        height: calc(100% + 100px);
+        position: absolute;
+        z-index:-1;
+        -webkit-clip-path: polygon(0 0, 60% 0, 40% 100%, 0% 100%);
+        clip-path: polygon(0 0, 60% 0, 40% 100%, 0% 100%);
+    }
+    #content-container .background{
+    background-image: url("../images/car-bg.jpg");
+    background-size: cover;
+    background-color: #282828;
+    background-blend-mode: overlay;
+        
+    }
+    
+.sliding-panel-container:hover div{
+    animation: fade-in-2  14s ;
+    display: block;
+}
+
+.sliding-panel-container:hover .sliding-panel{
+    /* animation: slide-left 15s 0.25s; */
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+.solution-panel{
+    border-radius: 2px;
+    width: 70%;
+    min-height: 180px;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 70px; 
+    padding: 50px;
+}
+.solution-thumbnail{
+    height: 200px;
+    width: 260px;
+    float:left;
+    margin-right: 60px;
+    overflow: hidden;
+    text-align: center;
+}
+.solution-thumbnail img{
+    height: 100%;
+}
+.solution-panel h3{
+    margin-top: 0;
+    padding:0px;
+}
+
+#contact-img-panel{
+    width: 300px;
+    margin: 30px;
+    background-image: url('../images/black-telephone-line.jpg');
+    background-size: cover;
+    margin-left: 50px;
+    border-left: 10px solid #282828;
+    height: 300px;
+    float: right;
+}
+}
+
+/*animations*/
+
+@keyframes nav-appear{
+    from{
+        display: none;
+        height:0px;
+    }
+    to{
+        display: block;
+        height: 40px;
+    }
+}
+
+@keyframes bounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+    }
+  
+    70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+
+  @keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fade-in-2{
+  from{
+    display: none;
+      opacity: 0;
+  }
+  15%{
+    display: block;
+      opacity: 0;
+  }
+  25%{
+      opacity: 1;
+  }
+  75%{
+      opacity: 1;
+  }
+  
+  85%{    display: none;
+    opacity: 0;
+    }
+  to{
+    display: none;
+      opacity: 0;
+  }
+}
+@keyframes float-left{
+    from{
+        opacity: 0;
+        margin-right: -100px;
+    }
+    to{
+        opacity: 1;
+        margin-right: initial;
+    }
+}
+@keyframes slide-left{
+    0%{
+        margin-left: 0px;
+    }
+    10%{
+        margin-left: -93%;
+        display: none;
+    }
+    75%{
+        margin-left: -93%;
+        display: none;
+
+    }
+    100%{
+        margin-left: 0px;
+        display: block;
+    }
+}
+

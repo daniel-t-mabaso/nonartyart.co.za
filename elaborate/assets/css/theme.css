@@ -1,0 +1,125 @@
+
+/*Backgrounds*/
+.background-bg{
+    background-color: #f2ece4 !important;
+}
+
+.black-bg{
+    background-color: #000 !important;
+}
+
+.white-bg{
+    background-color: #f2ece4 !important;
+}
+
+.primary-bg{
+    background-color: #f20505 !important;
+}
+
+.secondary-bg{
+background-color: #8c0303 !important;
+
+}
+
+.tertiary-bg{
+background-color: #010626 !important;
+}
+
+.alternative-bg{
+background-color: #bf9969 !important;
+
+}
+
+.success-bg{
+    background-color: yellowgreen !important;
+}
+
+.caution-bg{
+    background-color: #E9A228 !important;
+}
+
+.danger-bg{
+    background-color: rgb(205, 50, 50) !important;
+}
+
+.success-bg{
+    background-color: yellowgreen;
+}
+.caution-bg{
+    background-color: rgb(165, 165, 165);
+}
+
+/*font colours*/
+.black-txt{
+    color: #000;
+}
+
+.white-txt{
+    color: #f2ece4;
+}
+.primary-txt{  
+    color: #f20505;
+}]
+
+.secondary-txt{
+    color: #8c0303;
+}
+
+.tertiary-txt{
+    color: #010626;
+}
+
+.alternative-txt{
+    color: #bf9969;
+}
+
+.danger-txt{
+    color: rgb(205, 50, 50);;
+}
+
+.success-txt{
+    color: yellowgreen;
+}
+.caution-txt{
+    color: rgb(255, 167, 167);
+}
+
+.primary-theme{
+    background-color: #f20505;
+    color: #f2ece4;
+}
+
+.secondary-theme{
+    background-color: #8c0303;
+    color: #f2ece4;
+}
+
+.tertiary-theme{
+    background-color: #010626;
+    color: #f2ece4;
+}
+
+.alternative-theme{
+    background-color: #f2ece4;
+    color: #f20505;
+}
+
+.active-theme{
+    background-color:  yellowgreen;
+    color: #f2ece4;
+}
+
+.disabled-theme{
+    background-color: #585858;
+    color: #7b7b7b;
+}
+
+.inactive-theme{
+    background-color:#E9A228;
+    color: #f2ece4;
+}
+
+.deleted-theme{
+    background-color: rgb(125, 170, 177);
+    color: #f2ece4;
+}

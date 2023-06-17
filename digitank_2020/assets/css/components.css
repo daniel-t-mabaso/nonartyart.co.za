@@ -1,0 +1,87 @@
+/* course card */
+.course-image{
+    width: 260px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+.course-details-panel{
+    position: absolute;
+    margin-top: 150px;
+    width: 226px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 17px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: 9px;
+    height: calc(60px + 10px * 2 + 5px *2);
+}
+.course-details-top{
+    padding: 10px;
+    height: 30px;
+    border-radius: 6px 6px 0px 0px !important;
+    width: calc(100% - 10px*2);
+    background-color: #2b2b2b;
+
+}
+.course-details-bottom{
+    border-radius: 0px 0px 10px 10px;    padding: 3px;
+    padding-left: 5px;
+    padding-right: 10px;
+    height: 30px;
+    width: calc(100% - 5px - 10px);
+    background-color: #1b1b1b;
+}
+.button-hover:hover{
+    background-image: linear-gradient(to right, #FFB900, #FF8300);
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    color:white;
+    border-radius: 90px;
+    position: absolute;
+    width: 124.750px;
+    height: 41px;
+    line-height: 41px;
+    margin-top: -3px;
+    margin-left: -3px;
+    
+}
+.button-hover-small:hover{
+    background-image: linear-gradient(to right, #FFB900, #FF8300);
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    color:white;
+    border-radius: 90px;
+    position: absolute;
+    width: 118.750px;
+    height: 35px;
+    line-height: 35px;
+    animation: appear 0.5 ease-in-out;
+    
+}
+
+.orange-txt-gradient-1:visited{
+    background-image: linear-gradient(to right, rgba(255,85,0, .3), rgba(255,131,0,0.3));
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    color: transparent;
+}
+
+.orange-button-hover:hover{
+    border: 2px solid rgba(255, 131, 0 , 1) !important;
+    background-image: linear-gradient(to right, rgba(255, 185,0 ,0.3), rgba(255, 131, 0 , 0.3));
+    background-clip: border-box;
+    height: 40px;
+    -webkit-background-clip: border-box;
+    color: white;
+}
+
+.hover-blue-box:hover{
+    border: 2px solid #00ABFF;
+}
+
+.contact-card{
+    height: 204px;
+    width: 166px;
+}

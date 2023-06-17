@@ -1,0 +1,160 @@
+@media only screen and (min-width: 340px) and (max-width: 450px){
+    .content{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .row{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .button{
+        width: calc(100% - 10px * 2) !important;
+    }
+    /* Beginning of Header Styling */
+    .header-contact-bar{
+        height: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .header-contact-bar .content{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .contact-bar-item{
+        height: 15px;
+        line-height: 15px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .contact-bar-item div{
+        display: inline-block;
+        height: 15px;
+        overflow-y: hidden;
+        font-size: 10pt;
+    }
+    .contact-bar-item img{
+        height: 15px;
+    }
+    .header-panel{
+        height: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;        
+    }
+    .header-panel .content{
+        display: flex;
+    }
+    #navigation-logo{
+        height: 50px;
+        flex: 1;
+    }
+    #navigation-logo img{
+        height: 50px;
+    }
+    #navigation-logo > div:nth-child(2) {
+        display: none;
+    }
+    #navigation-logo div{
+        height: 50px;
+        line-height: 60px;
+        overflow-y: hidden;
+        display: inline-block;
+        margin-right: 3px;
+    }
+    .header-panel .navigation-bar{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .header-panel .navigation-item{
+        padding: 10px;
+        margin-left: 25px;
+        cursor: pointer;
+        width: 100%;
+        display: none;
+    }
+    /* End of Header Styling */
+    /* Beginning of Footer Styling */
+    #get-started-panel p{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .small-icon{
+        width: 20px;
+        height: 20px;
+    }
+    #footer-panel div{
+        text-align: center;
+        font-size: 9pt;
+    }
+    #footer-panel .social-media-panel{
+        margin: 0 auto;
+        width: fit-content;
+        margin-bottom: 15px;
+    }
+    #footer-panel img{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* End of Footer Styling */
+    /* Beginning of About Styling */
+    #what-we-do p{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    #connect-with-us .content{
+    }
+    #connect-with-us .col{
+        flex: 4;
+        padding-right: 40px;
+    }
+    #connect-with-us .contact-form{
+        flex: 3;
+        padding-right: 0;
+    }
+    #connect-with-us .large-floating-icon{
+        display: none;
+        font-size: 70px;
+        font-weight: bolder;
+        height: 54px;
+        line-height: 54px;
+        margin-right: 10px;
+    }
+    #connect-with-us > div > div:nth-child(1) > div:nth-child(2) .large-floating-icon{
+        display: inline-block;
+    }
+    #connect-with-us > div > div:nth-child(1) > div:nth-child(2) h2{
+        display: inline-block;
+    }
+    #connect-with-us > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(4){
+        display: none;
+    }
+    #connect-with-us p{
+        margin-bottom: 30px;
+    }
+    .medium-icon{
+        width: 40px;
+        height: 40px;
+    }
+    .large-medium-icon{
+        width: 70px;
+        height: 70px;
+    }
+    #connect-with-us .medium-icon{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #connect-with-us .large-medium-icon{
+        display: none;
+    }
+    #connect-with-us .contact-form{
+        margin-top: 20px;
+    }
+    #connect-with-us > div > div.col.contact-form > form > textarea{
+        height: 110px;
+    }
+    /* End of Footer Styling */
+}

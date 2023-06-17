@@ -1,0 +1,152 @@
+@media only screen and (min-width: 760px) and (max-width: 1100px){
+    .content{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .row{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* Beginning of Header Styling */
+    .header-contact-bar{
+        height: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .header-contact-bar .content{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .contact-bar-item{
+        height: 15px;
+        line-height: 15px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .contact-bar-item div{
+        display: inline-block;
+        height: 15px;
+        overflow-y: hidden;
+        font-size: 10pt;
+    }
+    .contact-bar-item img{
+        height: 15px;
+    }
+    .header-panel{
+        height: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;        
+    }
+    .header-panel .content{
+        display: flex;
+    }
+    #navigation-logo{
+        height: 50px;
+    }
+    #navigation-logo img{
+        height: 50px;
+    }
+    #navigation-logo > div:nth-child(2) {
+        display: none;
+    }
+    #navigation-logo div{
+        height: 50px;
+        line-height: 60px;
+        overflow-y: hidden;
+        display: inline-block;
+        margin-right: 3px;
+    }
+    .header-panel .navigation-bar{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .header-panel .navigation-item{
+        padding-top: 5px;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+    /* End of Header Styling */
+    /* Beginning of Footer Styling */
+    #get-started-panel p{
+        width: 500px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .small-icon{
+        width: 25px;
+        height: 25px;
+    }
+    #footer-panel div{
+        text-align: center;
+        font-size: 9pt;
+    }
+    #footer-panel .social-media-panel{
+        margin: 0 auto;
+        width: fit-content;
+        margin-bottom: 15px;
+    }
+    #footer-panel img{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* End of Footer Styling */
+    /* Beginning of About Styling */
+    #what-we-do p{
+        width: 450px;
+    }
+    .contact-form{
+        width: 500px;
+    }
+    #connect-with-us .content{
+        display: flex;
+    }
+    #connect-with-us .col{
+        flex: 4;
+        padding-right: 40px;
+    }
+    #connect-with-us .contact-form{
+        flex: 3;
+        padding-right: 0;
+    }
+    #connect-with-us .large-floating-icon{
+        display: block;
+        font-size: 70px;
+        font-weight: bolder;
+        height: 54px;
+        line-height: 54px;
+        margin-right: 10px;
+    }
+    #connect-with-us > div > div:nth-child(1) > div:nth-child(2) .large-floating-icon{
+        display: none;
+    }
+    #connect-with-us > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(4){
+        position: relative;
+        margin-left: -10px;
+    }
+    #connect-with-us .col{
+        display: flex;
+    }
+    #connect-with-us p{
+        margin-bottom: 15px;
+    }
+    .medium-icon{
+        width: 40px;
+        height: 40px;
+    }
+    .large-medium-icon{
+        width: 70px;
+        height: 70px;
+    }
+    #connect-with-us .medium-icon{
+        margin-right: 20px;
+    }
+    #connect-with-us .large-medium-icon{
+        float: right;
+    }
+    #connect-with-us > div > div.col.contact-form > form > textarea{
+        height: 110px;
+    }
+    /* End of Footer Styling */
+}

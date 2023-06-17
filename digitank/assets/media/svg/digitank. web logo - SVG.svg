@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="183px" height="78px" viewBox="0 0 183 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>digitank. copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="Avenir-Black, Avenir" font-size="36" font-weight="700" letter-spacing="-0.576" fill="#FFFFFF">
+            <tspan x="0.392" y="40">digitank.</tspan>
+        </text>
+        <filter x="-23.4%" y="-65.3%" width="146.9%" height="238.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="11" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Guides" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="1">
+        <g id="Landing-Page---Overview" transform="translate(-219.000000, -28.000000)" fill="#FFFFFF">
+            <g id="Group-11" transform="translate(189.000000, 0.000000)">
+                <g id="Group-10" transform="translate(50.000000, 34.000000)">
+                    <g id="digitank.-copy-3">
+                        <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                        <use xlink:href="#text-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

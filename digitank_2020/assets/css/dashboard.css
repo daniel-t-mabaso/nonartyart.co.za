@@ -1,0 +1,130 @@
+.overflow-x{
+    overflow-x: hidden;
+}
+.scroll-y{
+    overflow-y: auto;
+}
+
+.gray-1{
+    background-color: #2f3132;
+}
+.gray-2{
+    background-color: #28292a;
+}
+.gray-3{
+    background-color: #adafb6;
+}
+.dashboard-content{
+    height: 100%;
+}
+
+@media only screen and (max-width: 450px){
+    #dashboard-row-1{
+        width: 100%;
+        height: calc(100% - 80px * 2);
+    }
+    #dashboard-navigation-panel{
+        width: calc(100% - 20px * 2);
+        height: 130px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .dashboard-nav-item{
+        width: calc(50% - calc(10px * 2) );
+        height: 20px;
+        float: left;
+        line-height: 20px;
+        padding: 5px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .dashboard-nav-item:hover{
+        background-color: rgba(255,131,0,0.3);
+        border: 1px solid rgba(255,131,0,1);
+        height: 18px;
+        width: calc(50% - calc(11px * 2) );
+        line-height: 18px;
+    }
+    #dashboard-content-panel{
+        width: 100%;
+        height: calc(100% - 80px);
+        text-align: left;
+        margin-right: 10px;
+    }
+    .change-user-type{
+        float: right;
+        border: 1px solid inherit;
+        padding:3px;
+        border-radius: 5px;
+    }
+    select, option{
+        background-color: #161718 !important;
+        color: inherit;
+    }
+    
+    .add-new-button{
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 450px) and (max-width: 736px){
+   
+
+}
+@media only screen and (min-width: 736px) and (max-width: 1080px){
+   
+    
+}
+@media only screen and (min-width: 1080px){
+    #dashboard-row-1{
+        width: 100%;
+        height: calc(100% - 80px * 2);
+    }
+    #dashboard-navigation-panel{
+        width: 200px;
+        height: 500px;
+        position: fixed;
+        text-align: center;
+        left: calc(calc(100% - 1080px) / 2);
+        padding: 30px;
+    }
+    .dashboard-nav-item{
+        width: 190px;
+        height: 20px;
+        line-height: 20px;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .dashboard-nav-item:hover{
+        background-color: rgba(255,131,0,0.3);
+        border: 1px solid rgba(255,131,0,1);
+        height: 18px;
+        line-height: 18px;
+        width: 188px;
+    }
+    #dashboard-content-panel{
+        width: 800px;
+        height: calc(100% - 50px);
+        margin-top: 40px;
+        text-align: left;
+        float:right;
+        margin-right: 10px;
+    }
+    .change-user-type{
+        float: right;
+        border: 1px solid inherit;
+        padding:3px;
+        border-radius: 5px;
+    }
+    select, option{
+        background-color: #161718 !important;
+        color: inherit;
+    }
+    .add-new-button{
+        right: 185px;
+        top: 145px;
+    }
+}

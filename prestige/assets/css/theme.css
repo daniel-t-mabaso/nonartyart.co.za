@@ -1,0 +1,53 @@
+.primary-bg{
+        background-color: #171717;
+}
+
+.secondary-bg{
+    background-color: #585858;
+
+}
+
+.tertiary-bg{
+    background-color: #cfcfcf;
+}
+
+.alternative-bg{
+    background-color: #efefef;
+
+}
+.white-bg{
+    background-color: white;
+}
+
+
+
+
+
+.primary-txt{  
+    color: #171717;
+
+}
+
+.secondary-txt{
+    color: #585858
+
+}
+
+.tertiary-txt{
+    color: rgb(87, 139, 190)
+
+}
+
+.alternative-txt{
+    color: gainsboro;
+}
+.white-txt{
+    color: white;
+}
+
+.success-txt{
+    color: yellowgreen;
+}
+.caution-txt{
+    color: goldenrod;
+}

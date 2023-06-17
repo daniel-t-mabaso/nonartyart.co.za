@@ -1,0 +1,86 @@
+html, body
+	{margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+		background-color: #bbbbbb;
+	top: 0;
+	left: 0;}
+	
+#CONTAINER
+	{
+		position: relative;
+		min-height: 100%;
+		width: 100%;
+		margin: 0px;
+		background-color: #bbbbbb;
+	}
+#ROW-1
+	{
+		width: 400px;
+		margin: 0 auto;
+		
+		text-align: center;
+	}
+	
+#feedbackHeading
+	{
+		font-family:KaushanScript;
+		text-shadow: 2px 2px #3a3a3a;
+		color: white;
+		font-size: 30px;
+		padding-top: 15px;
+	}
+#feedbackInstruction
+	{
+		color: #4b4b4b;
+		font-family: gruppo;
+		font-weight: bold;
+		font-size: 14px;
+		width: 360px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+#questionnaire
+	{
+		width: 350px;
+		padding: 10px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		border-radius: 15px;
+		background-color: #fcfcfc;
+		text-align: left;
+		border: 1px solid black;
+	}
+.radioDiv
+	{
+		width: 300px;
+		text-align: left;
+		font-size: 12px;
+		border-radius: 10px;
+		height: 30px;
+		box-shadow: 1px 1px 3px 0px;
+		margin: 15px;
+		background-color: white;
+	}
+.radioButton
+	{
+		margin-left: 18px;
+		margin-right: 18px;
+		margin-top: 7px;
+	}
+.Question
+	{
+		color: #000000;
+		font-family: gruppo;
+	}
+#commentsTextBox
+	{
+		margin: auto;
+	}
+#submit
+	{
+		margin:10px;
+		margin-left: 145px;
+	}

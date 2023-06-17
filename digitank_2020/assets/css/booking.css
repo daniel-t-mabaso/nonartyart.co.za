@@ -1,0 +1,264 @@
+.overflow-x{
+    overflow-x: hidden;
+}
+
+.gray-1{
+    background-color: #2f3132;
+}
+.gray-2{
+    background-color: #28292a;
+}
+.gray-3{
+    background-color: #adafb6;
+}
+
+@media only screen and (max-width: 450px){
+    #booking-row-1{
+        height: 270px;
+        height: 800px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #booking-cover-image{
+        z-index: -1;
+        position: absolute;
+        height: 2000px;
+    }
+    #course-cover{
+        height:110%;
+    }
+    #booking-course-image{
+        width:300px;
+        height:240px;
+        margin-top: 30px;
+    }
+    #booking-row-2{
+        width: 100%;
+        height: 1050px;
+        padding-top: 50px;
+        background-color: rgba(26,27,28,0.8);
+    }
+    .booking-course-details-panel{
+        width: calc(100%  - 10px*2);
+        min-height: 250px;
+        height: fit-content;
+
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float: left;
+
+    }
+    .booking-course-details-heading{
+        font-weight: bold;
+    }
+    #booking-row-3{
+        width: 100%;
+        height: fit-content;
+        min-height: 360px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #booking-row-3 .content{
+        height: fit-content;
+    }
+    .booking-card-container{
+        width: 240px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top:40px;
+        
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 736px){
+    #booking-row-1{
+        height: 270px;
+        height: 800px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #booking-cover-image{
+        z-index: -1;
+        position: absolute;
+        height: 2000px;
+    }
+    #course-cover{
+        height:110%;
+    }
+    #booking-course-image{
+        width:300px;
+        height:240px;
+        margin-top: 30px;
+    }
+    #booking-row-2{
+        width: 100%;
+        height: 1050px;
+        padding-top: 50px;
+        background-color: rgba(26,27,28,0.8);
+    }
+    .booking-course-details-panel{
+        width: calc(100%  - 10px*2);
+        min-height: 250px;
+        height: fit-content;
+
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float: left;
+
+    }
+    .booking-course-details-heading{
+        font-weight: bold;
+    }
+    #booking-row-3{
+        width: 100%;
+        height: fit-content;
+        min-height: 360px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #booking-row-3 .content{
+        height: fit-content;
+    }
+    .booking-card-container{
+        width: 240px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top:40px;
+        
+    }
+}
+@media only screen and (min-width: 736px) and (max-width: 1080px){
+    #booking-row-1{
+        height: 270px;
+        height: 550px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #booking-cover-image{
+        z-index: -1;
+        position: absolute;
+        height: 2000px;
+    }
+    #course-cover{
+        height:110%;
+    }
+    #booking-course-image{
+        width:300px;
+        height:240px;
+        margin-top: 30px;
+    }
+    #booking-row-2{
+        width: 100%;
+        height: 1050px;
+        padding-top: 50px;
+        background-color: rgba(26,27,28,0.8);
+    }
+    .booking-course-details-panel{
+        width: calc(100%  - 10px*2);
+        min-height: 250px;
+        height: fit-content;
+
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float: left;
+
+    }
+    .booking-course-details-heading{
+        font-weight: bold;
+    }
+    #booking-row-3{
+        width: 100%;
+        height: fit-content;
+        min-height: 360px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #booking-row-3 .content{
+        height: fit-content;
+    }
+    .booking-card-container{
+        width: 240px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top:40px;
+        
+    }
+}
+@media only screen and (min-width: 1080px){
+    #booking-row-1{
+        height: 270px;
+        height: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #booking-cover-image{
+        z-index: -1;
+        position: absolute;
+        height: 700px;
+    }
+    #course-cover{
+        width:110%;
+    }
+    #booking-row-2{
+        width: 100%;
+        height: 300px;
+        background-color: rgba(26,27,28,0.8);
+    }
+    .booking-course-details-panel{
+        width: calc(100% / 3 - 20px*2 - 10px * 2);
+        height: 200px;
+
+        padding: 20px;
+        margin: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        float: left;
+
+    }
+    .booking-course-details-heading{
+        font-weight: bold;
+    }
+    #booking-row-3{
+        width: 100%;
+        height: fit-content;
+        min-height: 360px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #booking-row-3 .content{
+        height: fit-content;
+    }
+
+    .booking-card-container{
+        width: 240px;
+        height: 200px;
+        margin-left:50px;
+        margin-right:50px;
+        margin-top:70px;
+        float:left;
+    }
+    #booking-course-image{
+        width:300px;
+        height:240px;
+        margin:50px;
+        float:left;
+    }
+}
+.booking-scroll-left{
+    position: absolute;
+    left: 0px;
+    height: 287px;
+    z-index: 11;
+    width: 50px;
+    cursor: pointer;
+}
+.booking-scroll-right{
+    position: absolute;
+    right: 0px;
+    height: 287px;
+    z-index: 11;
+    width: 50px;
+    cursor: pointer;
+}

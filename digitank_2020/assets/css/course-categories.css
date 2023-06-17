@@ -1,0 +1,185 @@
+@media only screen and (max-width: 450px){
+    .category-courses-course-details{
+        width: 287px;
+        height: 280px !important;
+        margin-bottom: 20px;
+        margin-left: 15px; margin-right: 15px;
+    }
+    #category-row-1{
+        width: 100%;
+        height: fit-content;
+        min-height: 60px;
+        padding-bottom: 40px;
+    }
+    #category-courses{
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 50px;
+        height: fit-content;
+    }
+    .category-description{
+        width: calc(100% - 30px * 2);
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+    }
+    .something-else-panel{
+        width: calc(100% - 30px * 2);
+        padding-left: 30px;
+        margin: 0px;
+        padding-right: 30px;
+    }
+    .looking-panel{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .category-content{
+        width: 100%;
+        margin: 0 auto;
+        min-height: 250px;
+        height: fit-content;
+    }
+    .courses-group-of-3{
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 736px){
+    .category-courses-course-details{
+        width: 287px;
+        height: 280px !important;
+        margin-bottom: 20px;
+        margin-left: 15px; margin-right: 15px;
+    }
+    #category-row-1{
+        width: 100%;
+        height: fit-content;
+        min-height: 60px;
+        padding-bottom: 40px;
+    }
+    #category-courses{
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 50px;
+        height: fit-content;
+    }
+    .category-description{
+        width: calc(100% - 30px * 2);
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+    }
+    .something-else-panel{
+        width: calc(100% - 30px * 2);
+        padding-left: 30px;
+        margin: 0px;
+        padding-right: 30px;
+    }
+    .looking-panel{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .category-content{
+        width: 100%;
+        margin: 0 auto;
+        min-height: 250px;
+        height: fit-content;
+    }
+    .courses-group-of-3{
+        width: 100%;
+        height: fit-content;
+    }
+    
+}
+@media only screen and (min-width: 736px) and (max-width: 1080px){
+    .category-courses-course-details{
+        width: 287px;
+        height: 280px !important;
+        margin-bottom: 20px;
+        margin-left: 15px; margin-right: 15px;
+    }
+    #category-row-1{
+        width: 100%;
+        height: fit-content;
+        min-height: 60px;
+        padding-bottom: 40px;
+    }
+    #category-courses{
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 50px;
+        height: fit-content;
+    }
+    .category-description{
+        width: calc(100% - 30px * 2);
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+    }
+    .something-else-panel{
+        width: calc(100% - 30px * 2);
+        padding-left: 30px;
+        margin: 0px;
+        padding-right: 30px;
+    }
+    .looking-panel{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .category-content{
+        width: 100%;
+        margin: 0 auto;
+        min-height: 250px;
+        height: fit-content;
+    }
+    .courses-group-of-3{
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media only screen and (min-width: 1080px){
+    .category-courses-course-details{
+        width: 287px;
+        height: 280px !important;
+        margin-bottom: 20px;
+        margin-left: 15px; margin-right: 15px;
+        float: left;
+    }
+    #category-row-1{
+        width: 100%;
+        height: fit-content;
+        min-height: 650px;
+        padding-bottom: 40px;
+    }
+    .category-description{
+        width: 700px;
+        padding: 20px;
+    }
+    #category-courses{
+        width: 960px;
+        margin: 0 auto;
+        margin-top: 50px;
+        height: fit-content;
+    }
+
+    .category-content{
+        width: 1070px;
+        margin: 0 auto;
+        min-height: 250px;
+        height: fit-content;
+    }
+    .courses-group-of-3{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .something-else-panel{
+        width: calc(300px);
+        margin-left: 60px;
+    }
+    
+}

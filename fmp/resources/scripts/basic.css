@@ -1,0 +1,412 @@
+/*All code contained within this document was written by Non-Artistic Art. All rights reserved.
+http://nonartyart.co.za*/
+
+html, body
+	{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Baloo';
+		font-weight: lighter;
+		background-color: #fbfbfb;
+	}
+#filterPanel
+	{
+		background-color:#6894ed;
+		display: none;
+		box-shadow: 1px 1px 1px 1px #4b4b4b;
+	}
+#bgBlur
+	{
+		position: fixed;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		left: 0px;
+		display: none;
+		background-color: black;
+		opacity: 0.7;
+	}
+#menuButton
+	{
+		display: block;
+		position: absolute;
+		right: 15px;
+		width: 40px;
+		text-align: center;
+		cursor: pointer;
+		top: 10px;
+	}
+#filterButton
+	{
+		display: block;
+		position: fixed;
+		background-color:#6894ed;
+		padding: 7px;
+		top: 44px;
+		padding-left: 10px;
+		padding-right: 25px;
+		right: 0px;
+		color: white;
+		width: 30px;
+		border-radius: 5px 0px 0px 5px;
+		text-align: right;
+		box-shadow: 1px 1px 1px 0px gray;
+		cursor: pointer;
+	}
+#CONTAINER
+	{
+		width: 100%;
+		margin: 0px;
+		color: #6894ed;
+		background-color: #fbfbfb;
+	}
+h1, h2, h3, h4, h5, h6
+	{
+		
+		color: #9fed68;
+	}
+a
+	{
+		color: inherit;
+		text-decoration: none;
+	}
+ul
+	{
+		color: #6894ed;
+	}
+li
+	{
+		color: #494949;
+	}
+#map 
+	  {
+        height: 580px;
+        width: 100%;
+       }
+#ROW-1
+	{
+		position: fixed;
+		z-index: 5;
+		top: 0px;
+		background-color: white;
+		width: 100%;
+		height: 35px;
+		box-shadow: 0px 1px 2px 0px gray;
+	}
+#companyId
+	{
+		padding-top: 10px;
+		padding-left: 15px;
+		float: left;
+		font-family: 'Faster One', cursive;
+	}
+#menuList
+	{
+		display: none;
+	}
+#ROW-2
+	{
+		width: 100%;
+		min-height: 300px;
+		margin-top: 30px;
+	}
+	
+.menuItem:hover
+	{
+		color: #ffaa23;
+	}
+#filterList
+	{
+		list-style: none;
+		padding-left: 0px;
+		margin: 0px;
+	}
+.filterHeading:hover
+	{
+		color: orange;
+	}
+.filterHeading
+	{
+		color:#ffffff;
+		padding-left: 10px;
+		cursor: pointer;
+		font-family: 'Fira Sans Extra Condensed';
+		font-weight: bold;
+		font-size: 16px;
+		padding-top: 10px;
+		margin-bottom: 3px;
+		
+	}
+.filterOptions
+	{
+		margin-left:-10px;
+		padding-left: 0px;
+		list-style: none;
+	}
+.filterOptionItem:hover
+	{background-color:#c1d6ff;}
+.filterOptionItem
+	{
+		margin-top: 1px;
+		background-color: #ffffff;
+		padding: 5px;
+		font-weight: lighter;
+		font-size: 13px;
+		font-family: 'Raleway';
+		padding-right: 0px;
+		padding-left: 10px;
+	}
+#filterText
+	{
+		color: #ffffff;
+		padding: 0px;
+		padding-top: 10px;
+		margin: 0px;
+		margin-bottom: 15px;
+		width: 100%;
+		text-align: center;
+	}
+#searchPanel
+	{
+		margin: 10px;
+		margin-left: 0px;
+		height: 29px;
+		padding: 0px;
+		padding-left: 0px;
+		width: 245px;
+		border-radius:3px;
+		border: 1px solid #bfbfbf;
+	}
+#searchTextbox
+	{	float: left;
+		width: 200px;
+		padding: 7px;
+		margin-top:5px;
+		border: 0px solid;
+	}
+#mapSearchForm
+	{
+		margin-top:-5px;
+	}
+#searchMapButton:active, #searchMapButton:hover	
+	{
+		color:  #ffaa23;
+		outline:none;
+	}
+#searchMapButton
+	{
+		font-size: 28px;
+		background: none;
+		color: #6894ed;
+		border: 0px solid;
+	}
+@media only screen and (max-width: 400px)
+	{		
+		#map{height: 530px;}
+		#navigationBar
+			{
+				width: 330px;
+				float: right;
+				margin: 0px;
+			}
+		#menuList
+			{
+				text-align: right;
+				list-style: none;
+				margin: 0px;
+				padding: 0px;
+				margin-top: 8px;
+				box-shadow: 1px 1px 1px 1px #4b4b4b;
+			}
+		.menuItem:hover
+			{
+				background-color: #6894ed;
+				color: #ffffff;
+			}
+		.menuItem
+			{
+				display: block;
+				padding: 5px;
+				padding-right: 15px;
+				color: white;
+				background-color: #6894ed;
+			}
+		#companyId
+		{
+			padding-left: 20px;
+		}
+	
+		#ROW-2 .COL-3
+			{
+				position: fixed;
+				z-index: 2;
+				width: 200px;
+				right: 0px;
+				padding-top: 5px;
+			}
+		#ROW-2 .COL-6
+			{
+				width: 98%;
+				margin-left: 3px;
+				min-height: 300px;
+				padding-top: 10px;
+			}	
+		
+	}
+@media only screen and (min-width: 400px) and (max-width: 736px)
+	{		
+		#map{height: 260px;}
+		#navigationBar
+			{
+				width: 260px;
+				float: right;
+			}
+		#menuList
+			{
+				text-align: right;
+				list-style: none;
+				margin: 0px;
+				padding: 0px;
+				margin-top: 36px;
+				box-shadow: 1px 1px 1px 1px #4b4b4b;
+			}
+		.menuItem:hover
+			{
+				background-color: #6894ed;
+				color: #ffffff;
+			}
+		.menuItem
+			{
+				display: block;
+				padding: 5px;
+				padding-right: 15px;
+				color: white;
+				background-color: #6894ed;
+			}
+		#companyId
+		{
+			padding-left: 20px;
+		}
+		#ROW-2 .COL-3
+			{
+				position: absolute;
+				z-index: 2;
+				width: 200px;
+				right: 0px;
+				padding-top: 5px;
+			}
+		#ROW-2 .COL-6
+			{
+				position: fixed;
+				z-index: 0;
+				width: 97%;
+				margin-left: 10px;
+				min-height: 500px;
+				padding-top: 10px;
+			}
+	}
+@media only screen and (min-width: 736px) and (max-width: 1080px)
+	{		
+		#menuButton
+			{
+				display: none;
+			}
+		#navigationBar
+			{
+				width: 400px;
+				height: 35px;
+				float: right;
+			}
+		#menuList
+			{
+				list-style: none;
+				display: inline;
+				padding-left: 10px;
+			}
+		.menuItem
+			{
+				display: inline-block;
+				padding: 10px;
+				color: #6894ed;
+			}
+		#companyId
+		{
+			padding-left: 20px;
+		}
+		#ROW-2 .COL-3
+			{
+				position: absolute;
+				z-index: 2;
+				width: 200px;
+				min-height: 500px;
+				right: 0px;
+				padding-top: 5px;
+			}
+		#ROW-2 .COL-6
+			{
+				position: fixed;
+				z-index: 0;
+				width: 95%;
+				min-height: 500px;
+				padding: 10px;
+			}
+		
+	}
+@media only screen and (min-width: 1080px)
+	{
+		#menuButton
+			{
+				display: none;
+			}
+		#navigationBar
+			{
+				width: 500px;
+				height: 35px;
+				float: right;
+			}
+		#menuList
+			{
+				list-style: none;
+				display: inline;
+				padding-left: 10px;
+			}
+		.menuItem
+			{
+				display: inline-block;
+				padding: 10px;
+				color: #6894ed;
+			}
+		#companyId
+		{
+			padding-left: 95px;
+		}
+		#ROW-2
+			{
+				width: 100%;
+				min-height: 300px;
+				margin-top: 30px;
+			}
+		#ROW-2 .COL-3
+			{
+				width: 200px;
+				min-height: 500px;
+				float: right;
+				padding-top: 5px;
+			}
+		#ROW-2 .COL-6
+			{
+				position: fixed;
+				z-index: 0;
+				height:100%;
+				width: 83%;
+				min-height: 500px;
+				padding-top: 10px;
+				background-color: #fbfbfb;
+				padding: 10px;
+			}
+	}

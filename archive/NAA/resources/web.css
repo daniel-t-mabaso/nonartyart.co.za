@@ -1,0 +1,264 @@
+/*Scroll bar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color:gray;
+}
+
+::-webkit-scrollbar-thumb {
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+#ROW-1
+  {
+    position: relative;
+    width:100%;
+    height:330px;
+  }
+.DESIGN-DIV:hover
+  {
+    background-color: #efefef;
+    color:black;
+  }
+.BUTTON-1:hover, .BUTTON-2:hover, .BUTTON:hover
+  {
+    background-color: orange;
+  }
+.BUTTON-1
+{
+
+  position: relative;
+  z-index: 1;
+  width: 120px;
+  height:20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: gold;
+  color:black;
+  margin:auto;
+  box-shadow: 1px 1px 1px 1px #2b2b2b;
+  float:right;
+  margin-right: 30px;
+}
+.BUTTON-2
+{
+  position: relative;
+  z-index: 1;
+  width: 120px;
+  height:20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: gold;
+  color:black;
+  margin:auto;
+  box-shadow: 1px 1px 1px 1px #2b2b2b;
+  float:left;
+  margin-left: 30px;
+}
+@media only screen and (max-width:736px)
+  {
+    .COL-3
+      {
+        display:none;
+      }
+  }
+.DESIGN-DIV
+  {
+    position:relative;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    color:white;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+  }
+  .BUTTON
+  {
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 2px;
+    font-style: normal;
+    padding-left: 12px;
+    padding-right: 10px;
+    font-weight: lighter;
+    text-align: center;
+    background-color: #cfcfcf;
+    color:black;
+    box-shadow: 1px 1px 1px 1px #2b2b2b;
+    margin-left: 30px;
+  }
+  .SUBHEADING
+    {
+      margin:0px;
+      margin-top: 5px;
+      display: block;
+    }
+  .ICON
+    {
+      display: none;
+      opacity:0.6;
+    }
+  .ICON:hover
+    {
+      opacity:1;
+    }
+  .DESIGN-ICON-1
+  {
+    width:150px;
+    height:150px;
+    float:left;
+    margin: 30px;
+    border: 1px solid gray;
+  }
+.DESIGN-ICON-2
+  {
+    width:150px;
+    height:150px;
+    float:right;
+    margin: 30px;
+    border: 1px solid gray;
+  }
+#ROW-6
+  {
+    position: relative;
+    width:100%;
+    height:40px;
+  }
+
+#ROW-3,#ROW-5
+  {
+    position: relative;
+    width:100%;
+    height:370px;
+    color:white;
+  }
+
+#ROW-2,#ROW-4
+  {
+    position: relative;
+    width:100%;
+    min-height:350px;
+    background-color: #fcfcfc;
+    box-shadow: 5px 0px 5px 0px black;
+
+  }
+.DESIGN-INFO
+   {
+     padding:20px;
+     padding-top: 40px;
+     min-height: 200px;
+   }
+
+ #ROW-1 .COL-6
+   {
+     width:100%;
+     height:100%;
+   }
+ #ROW-2 .COL-6, #ROW-3 .COL-6, #ROW-4 .COL-6, #ROW-5 .COL-6
+   {
+     text-align: left;
+     width:100%;
+     margin: auto;
+     height:100%;
+   }
+@media  only screen and (min-width:736px) and (max-width:1080px)
+{
+  .DESIGN-INFO
+    {
+      padding-top: 70px;
+      font-size: 20px;
+      width: 700px;
+      margin: 0 auto;
+    }
+  .SUBHEADING
+    {
+      display: block;
+    }
+  .ICON
+    {
+      display: none;
+    }
+  #ROW-1 .COL-3
+    {
+      opacity:0;
+      width:0%;
+      height:100%;
+    }
+  .DESIGN-ICON-2, .DESIGN-ICON-1
+    {
+      width:200px;
+      height:200px;
+    }
+}
+@media  only screen and (min-width:1080px)
+{
+  .SUBHEADING
+    {
+      display: none;
+    }
+  .ICON
+    {
+      display: block;
+    }
+  #ROW-1
+    {
+      height:375px;
+    }
+  #ROW-1 .COL-3
+    {
+      opacity:0;
+      width:15%;
+      height:100%;
+    }
+
+  .DESIGN-ICON-1
+    {
+      width:250px;
+      height:250px;
+    }
+  .DESIGN-ICON-2
+    {
+      width:250px;
+      height:250px;
+    }
+  #ROW-1 .COL-6
+    {
+      width:80%;
+      height:100%;
+    }
+  #ROW-2 .COL-6, #ROW-3 .COL-6, #ROW-4 .COL-6, #ROW-5 .COL-6
+    {
+      text-align: left;
+      width:100%;
+      margin: auto;
+      height:100%;
+    }
+  .DESIGN-INFO
+    {
+      padding-top: 70px;
+      font-size: 24px;
+      width: 700px;
+      margin: 0 auto;
+    }
+  .DESIGN-DIV
+    {
+      position:relative;
+
+      border-radius:15px;
+      width: 180px;
+      height: 180px;
+      float:left;
+      margin-left: 30px;
+      margin-top: 40px;
+      border: 1px solid gray;
+    }
+}

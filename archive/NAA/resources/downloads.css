@@ -1,0 +1,185 @@
+/*Scroll bar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color:gray;
+}
+
+::-webkit-scrollbar-thumb {
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+#ROW-1
+ {
+   position: relative;
+   z-index: 1;
+   width:100%;
+   height:200px;
+ }
+#ROW-2
+  {
+    position: relative;
+    z-index: 1;
+    width:100%;
+    min-height:400px;
+    text-align: left;
+  }
+.DOWNLOADS-DIV
+  {
+    position: relative;
+    margin-top:5px;
+    width:80%;
+    min-height: 100px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+.DOWNLOADS-DIV .DIV-BG
+  {
+    opacity: 0.25;
+    background-color:black;
+  }
+#POPULAR-PANEL .APP-NAME
+  {
+    color:white;
+    font-weight: bold;
+    text-align: left;
+    list-style: none;
+    margin-left: -20px;
+  }
+.APP-NAME
+  {
+    margin: 0px;
+    padding-left: 10px;
+    padding-top:3px;
+    color:gold;
+  }
+.SUBHEADING
+  {
+    padding-left:15px;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 5px;
+  }
+.HEADING
+  {
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    padding: 0px;
+    padding-top: 5px;
+    font-family: monospace;
+    text-align: center;
+  }
+.DIV-BG
+  {
+    position: absolute;
+    opacity:0.3;
+    z-index: -1;
+    width:100%;
+    height:100%;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+#DOWNLOADS-PANEL
+  {
+    position:relative;
+    z-index: 1;
+    min-height: 300px;
+    height:auto;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    text-align: left;
+    box-shadow: 0px 1px 3px 0px #767676;
+  }
+#POPULAR-PANEL
+  {
+    z-index: 1;
+    position:relative;
+    min-height: 150px;
+    height:auto;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0px 1px 3px 0px #767676;
+  }
+.BUTTON:hover
+  {
+    background-color: orange;
+  }
+ .BUTTON
+  {
+    position: relative;
+    z-index: 1;
+    width: 120px;
+    height:20px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    background-color: gold;
+    color:black;
+    margin:auto;
+    box-shadow: 1px 1px 1px 1px #2b2b2b;
+  }
+
+@media only screen and (max-width:736px)
+  {
+    #DOWNLOADS-PANEL
+      {
+        margin: 10px;
+      }
+    #POPULAR-PANEL
+      {
+        margin: 10px;
+      }
+  }
+@media only screen and (min-width:736px) and (max-width:1080px)
+  {
+    #ROW-2 .COL-3
+      {
+        width:70%;
+        height:auto;
+      }
+    #ROW-2 .COL-6
+      {
+        width:30%;
+        height:auto;
+      }
+    #DOWNLOADS-PANEL
+      {
+        width:450px;
+      }
+    #POPULAR-PANEL
+      {
+        width:200px;
+      }
+  }
+@media only screen and (min-width:1080px)  {
+
+  #ROW-2 .COL-3
+    {
+      width:75%;
+      height:auto;
+    }
+  #ROW-2 .COL-6
+    {
+      width:25%;
+      height:auto;
+    }
+  #DOWNLOADS-PANEL
+    {
+      width:750px;
+    }
+  #POPULAR-PANEL
+    {
+      width:250px;
+    }
+}

@@ -1,0 +1,6 @@
+# Commenting entire file out because it was forcing redirect to https://www.nonartyart.co.za/$1 but that domain is being shutdown in August 2023
+# RewriteEngine On 
+# RewriteCond %{SERVER_PORT} 80 
+# RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+# RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+# RewriteRule ^(.*)$ https://www.nonartyart.co.za/$1 [R,L]

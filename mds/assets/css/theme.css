@@ -1,0 +1,46 @@
+/* Background Colour */
+.primary-bg{
+    background-color: #0D074D;
+}
+.secondary-bg{
+    background-color: #449BA5;
+}
+.tertiary-bg{
+    background-color: #88C1CE;
+}
+/* Font Colour */
+.primary-txt{
+    color: #0D074D;
+}
+.secondary-txt{
+    color: #449BA5;
+}
+.tertiary-txt{
+    color: #88C1CE;
+}
+.white-txt{
+    color: white;
+}
+.grey-txt{
+    color: #333333;
+}
+.black-txt{
+    color: black;
+}
+.transparent-black-txt{
+    color: rgba(0,0,0,.7);
+}
+
+/* Combos */
+.primary{
+    background-color: #0D074D;
+    color: white;
+}
+.secondary{
+    background-color: #449BA5;
+    color: white;
+}
+.tertiary{
+    background-color: #88C1CE;
+    color: white;
+}

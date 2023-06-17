@@ -1,0 +1,506 @@
+/*Scroll bar*/
+::-webkit-scrollbar
+  {
+    width: 12px;
+  }
+
+::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	  background-color:gray;
+  }
+
+::-webkit-scrollbar-thumb {
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+[id*="CLOSE-"]:hover,   #SIGN-IN:hover, #CLOSE, #ORDER-quote:hover
+  {
+    background-color: gold;
+    cursor: pointer;
+  }
+#CLOSE-quote
+  {
+    font-weight: bold;
+  }
+[id*="CLOSE-"], #ORDER-quote
+  {
+    z-index: 4;
+    text-align: center;
+    width: 70px;
+    margin: auto;
+    margin-top: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #ff846a;
+    border-radius: 5px 5px 5px 5px;
+  }
+#ORDER-quote
+  {
+    background-color: #4fd48a;
+    border: 0px solid;
+    font-weight: 100;
+  }
+.TEXT
+  {
+    height: 55px;
+  }
+  #confCLOSE:hover
+    {background-color: gold;}
+#confCLOSE
+  {
+    position: relative;
+    color: black;
+    border-radius: 5px;
+    padding-top: 2px;
+
+    z-index: 3;
+    background-color: #aac4ff;
+    width: 70px;
+    border: 1px solid gray;
+    height: 20px;
+    margin: auto;
+    top: 50px;
+    cursor: pointer;
+  }
+#confirmationText
+  {
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+    z-index: 5;
+  }
+#confBG{
+  position:fixed;
+  width:300px;
+  height:100px;
+  border-radius: 10px;
+  opacity: 0.9;
+  z-index: 2;
+  background-color:  #abff9b;
+}
+#confirmationWin
+  {
+    overflow: hidden;
+    position: fixed;
+    z-index: 5;
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    top: 100px;
+    border-radius: 10px;
+  }
+#SIGN-IN
+  {
+    margin-top: 10px;
+    width: 70px;
+    height: 25px;
+    background-color: #4fd48a;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px solid black;
+    font-family: gruppo;
+  }
+#signInWindow,#signInBackground,#quoteWindow, #quoteBackground, #NUWindow, #NUBackground
+  {
+    height: 250px;
+    width: 300px;
+  }
+
+#signInWindow,#confirmationWin, #quoteWindow, #NUWindow, #NUBackground
+  {
+    position: fixed;
+    z-index: 3;
+    top: 100px;
+    left: 0;
+    right: 0;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 1px 1px 1px 1px #3b3b3b;
+  }
+
+#signInBackground, #quoteBackground, #NUWindow, #NUBackground{
+  position: fixed;
+    z-index: 3;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #7b7b7b;
+    border-radius: 7px 7px 7px 7px;
+    opacity: 0.9;
+  }
+#NUWindow, #NUBackground
+  {
+    top: 30px;
+    height: 450px;
+    width: 300px;
+  }
+
+.BUTTON
+  {
+    width: 70px;
+    height: 20px;
+    background-color: #dbdbdb;
+  }
+[id*="ROW-"]
+  {
+    position:relative;
+    z-index: 1;
+    width: 100%
+  }
+#CONFIRM .TEXT_BOX
+  {
+    margin-right: 40px;
+  }
+.TEXT_BOX:focus
+  {
+    background-color: white;
+  }
+.TEXT_BOX
+  {
+    margin-top:10px;
+    width: 280px;
+    float: none;
+    padding-left: 5px;
+    border-radius: 2px;
+    height:17px;
+    border: 0px;
+  }
+#QUOTE:hover,#ORDER:hover
+  {
+    background-color: gold;
+    cursor: pointer;
+  }
+
+#QUOTE,#ORDER
+  {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7px;
+
+    font-weight: bold;
+    width: 110px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+#FOOTER{position: relative;margin-top: 64px; height: 152px;}
+#QUOTE
+  {
+    background-color:#5fa9ff;
+  }
+#ORDER
+  {
+    margin-right: 80px;
+    background-color:#4fd48a;
+  }
+.TEXT_2
+  {
+    padding-left: 30px;
+    font-weight: bold;
+    text-align: left;
+  }
+.SELECT_SERVICE .TEXT_2
+  {
+    padding: 0px;
+  }
+#ROW-1
+  {
+    position: relative;
+    height: 110px;
+  }
+#ROW-2
+  {
+    position: relative;
+    min-height: 850px;
+    padding-bottom: 10px;
+  }
+[class*="COL-"]
+  {
+    position: relative;
+    float:right;
+    width:96%;
+    height: 590px;
+    margin:10px;
+  }
+.COL-6
+  {
+    height:400px ;
+  }
+.COL-3{height: 200px;}
+#NEW_PROJECT
+  {
+    position: relative;
+    width: 98%;
+    height: 370px;
+    margin:auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #fcfcfc;
+  }
+.SELECT_SERVICE, #CONFIRM
+  {
+    text-align: right;
+    width:380px;
+    height: 100px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    border: 1px solid #fcfcfc;
+  }
+.SELECT_SERVICE
+  {
+    height:125px;
+  }
+.DROP
+  {
+    width: 250px;
+    height:25px;
+    border-radius: 2px;
+    margin:10px;
+    color: black;
+  }
+
+.SUBTITLE
+  {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #2b2b2b;
+    margin:auto;
+    padding: 0px;
+    padding-top: 20px;
+    text-align: center;
+  }
+.expand
+  {float: right;
+  margin-right: 10px;
+font-weight: normal;
+font-size: 40px;
+margin-top: -15px;}
+#accountInfo, #projectsInfo
+  {
+    position: relative;
+    z-index: 2;
+    list-style:none;
+    text-align: left;
+    text-decoration: none;
+    padding: 0px;
+  }
+.accountDivBG
+  {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 1;
+  }
+.accountInfo, .projectsInfo
+  {
+    width: 245px;
+    position: relative;
+    z-index: 2;
+    padding: 5px;
+    padding-left: 40px;
+    overflow-x:hidden;
+  }
+#accountInfo .accountDivBG
+    {
+      background-color: gold;
+    }
+#projectsInfo .accountDivBG
+    {
+      border-radius: 0px 0px 10px 10px;
+      background-color: orange;
+    }
+#accountDiv
+  {
+    position: relative;
+    list-style:none;
+    width: 290px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 10px;
+    border:1px solid white;
+  }
+#account, #projects
+  {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 2px 1px 0px black;
+    padding: 8px;
+    padding-left: 25px;
+    background-color: #cdcdcd;
+    border-radius: 15px 15px 0px 0px;
+  }
+#account
+  {border-radius: 10px 10px 0px 0px;}
+#projects,#projectsInfo .accountDiv
+  {border-radius: 0px 0px 10px 10px;}
+.DIV-BG
+  {
+    position: absolute;
+    opacity:0.3;
+    z-index: -1;
+    width:100%;
+    height:100%;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+@media only screen and (max-width:440px)
+  {
+    #NEW_PROJECT
+      {
+        height: 460px;
+      }
+    #signInWindow,#signInBackground,  #quoteWindow, #NUWindow, #NUBackground, #quoteBackground
+      {
+          width: 200px;
+      }
+    #QUOTE,#ORDER
+      {
+        margin-right: 45px;
+      }
+    .SELECT_SERVICE
+      {
+        width: 200px;
+        height: 215px;
+        font-size: 14px;
+      }
+    #ROW-2 .COL-6
+      {
+        height:470px;
+      }
+    #CONFIRM
+      {
+        width: 200px;
+        height: 100px;
+        font-size: 14px;
+      }
+    .DROP
+      {
+        width: 120px;
+      }
+
+    .TEXT_BOX
+      {
+        width: 120px;
+      }
+    .TEXT_2
+      {
+        padding-left: 5px;
+      }
+  }
+@media only screen and (min-width:736px) and (max-width:1080px)
+  {
+    #accountDiv
+      {margin: 5px;}
+    #signInWindow,#signInBackground, #quoteWindow, #quoteBackground, #NUWindow, #NUBackground
+      {
+        width: 400px;
+      }
+    #NEW_PROJECT
+      {
+        height:400px;
+      }
+    .SELECT_SERVICE
+      {
+        height: 125px;
+      }
+    #CONFIRM
+      {
+        height: 100px;
+      }
+    #ROW-1
+      {height: 150px;}
+    #ROW-2
+      {
+        min-height:600px;
+      }
+    .COL-3
+      {
+        width:33%;
+        height: 300px;
+        margin: 5px;
+        margin-left: 5px;
+      }
+    .COL-6
+      {
+        width: 63%;
+        height: 300px;
+        margin: 5px;
+      }
+    #CONFIRM .TEXT_BOX
+      {
+        width: 240px;
+        margin-right:60px;
+      }
+    }
+@media only screen and (min-width: 1024px)
+  {
+    #accountDiv
+      {margin: 5px;}
+    #signInWindow,#signInBackground, #quoteWindow, #quoteBackground, #NUWindow, #NUBackground
+      {
+        width: 400px;
+      }
+    #QUOTE,#ORDER
+      {
+        margin-right: 65px;
+      }
+    .TEXT_BOX
+      {
+        width: 150px;
+      }
+    #NEW_PROJECT
+      {
+        height:250px;
+      }
+    #ROW-1
+      {
+        height: 150px;
+      }
+    #ROW-2
+      {
+        min-height:400px;
+      }
+    .COL-3
+      {
+        width:33%;
+        height: 600px;
+        margin: 5px;
+        margin-left: 20px;
+      }
+    #SPAN
+      {
+        width: 650px;
+        height: 250px;
+        margin: auto;
+      }
+    .COL-6
+      {
+        width: 63%;
+        height: 300px;
+        margin: 5px;
+      }
+    #CONFIRM
+      {
+        width: 245px;
+      }
+    .SELECT_SERVICE, #CONFIRM
+      {
+        float: left;
+        height: 125px;
+        margin-left: 10px;
+      }
+  }

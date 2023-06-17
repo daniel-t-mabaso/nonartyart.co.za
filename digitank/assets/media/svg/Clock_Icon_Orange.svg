@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 19@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="30.46875%" x2="92.4466647%" y2="79.0264423%" id="linearGradient-1">
+            <stop stop-color="#FFB900" offset="0%"></stop>
+            <stop stop-color="#FF8300" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="✏️-Courses" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-257.000000, -384.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Course-Card-/-Extramural-Courses-/-1" transform="translate(75.000000, 77.000000)">
+                <g id="Group-3">
+                    <g id="Group-14" transform="translate(15.000000, 201.000000)">
+                        <g id="Group-10">
+                            <g id="Group-15" transform="translate(159.000000, 94.000000)">
+                                <g id="Group-17" transform="translate(0.000000, 0.500000)">
+                                    <g id="Group-19" transform="translate(8.000000, 11.500000)">
+                                        <path d="M6.5,0 C10.0898509,0 13,2.91014913 13,6.5 C13,10.0898509 10.0898509,13 6.5,13 C2.91014913,13 0,10.0898509 0,6.5 C0,2.91014913 2.91014913,0 6.5,0 Z M6.5,1.5 C3.73857625,1.5 1.5,3.73857625 1.5,6.5 C1.5,9.26142375 3.73857625,11.5 6.5,11.5 C9.26142375,11.5 11.5,9.26142375 11.5,6.5 C11.5,3.73857625 9.26142375,1.5 6.5,1.5 Z M6,2.75 C6.37969577,2.75 6.69349096,3.03215388 6.74315338,3.39822944 L6.75,3.5 L6.75,6.58578644 C6.75,6.62998919 6.76170632,6.67298498 6.78340211,6.71062901 L6.8232233,6.76256313 L8.53033009,8.46966991 C8.8232233,8.76256313 8.8232233,9.23743687 8.53033009,9.53033009 C8.26406352,9.79659665 7.84739984,9.8208027 7.55378835,9.60294824 L7.46966991,9.53033009 L5.76256313,7.8232233 C5.47539805,7.53605823 5.29834071,7.15936809 5.25856333,6.75875244 L5.25,6.58578644 L5.25,3.5 C5.25,3.08578644 5.58578644,2.75 6,2.75 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

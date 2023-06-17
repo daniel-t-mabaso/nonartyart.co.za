@@ -1,0 +1,88 @@
+#row-dashboard{
+    display: none;
+}
+@media only screen and (min-width: 1080px){
+    #row-header{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 100;
+    }
+    #row-dashboard{
+        margin-top: 90px;
+        display: block;
+        min-height: 400px;
+        height: calc(100% - 90px);
+        width: 100%;
+        position: relative;
+        overflow: visible;
+    }
+    #dashboard-navigation{
+        min-height: calc(100% - 0px);
+        width: 250px;
+        position: fixed;
+        left: 0px;
+        top: 90px;
+
+        text-align: center;
+    }
+    #dashboard-navigation .heading{
+        padding: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    #dashboard-navigation .dashboard-navigation-item{
+        padding: 10px;
+        padding-left: 60px;
+        text-align: left;
+    }
+    .dashboard-navigation-item:hover{
+        background-color: gray;
+        color: white;
+        cursor: pointer;
+        border-right: 4px solid goldenrod;
+    }
+    #dashboard-panel{
+        height: 1080px;
+        width: calc(100% - 250px - 0px);
+        position: relative;
+        float: right;
+        margin-right: 0px;
+    }
+    
+    #dashboard-actions{
+        height: calc(40px - 10px * 2);
+        width: calc(calc(92px * 2) + calc(10px * 2) * 2);
+        position: fixed;
+        right: 80px;
+        bottom: 60px;
+
+        text-align: center;
+    }
+    .dashboard-action-item, input .dashboard-action-item {
+        border-radius: 40px;
+        height: 30px;
+        width: 90px;
+        font-size: 12px;
+        line-height: 30px;
+        margin: 10px;
+        float: left;
+        border: 0px solid;
+        box-shadow: 1px 2px 0px 0px gray;
+    }
+    .dashboard-action-item:hover{
+        color: white;
+        cursor: pointer;
+    }
+    .dashboard-form{
+        width: calc(250px + calc(10px * 2) + calc(5px * 2));
+        margin: 30px;
+        margin-left: 50px;
+        min-height: 400px;
+    }
+    .dashboard-input{
+        width: 250px;
+        padding: 10px;
+        margin: 5px;
+    }
+}

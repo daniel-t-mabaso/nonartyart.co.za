@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="166px" height="107px" viewBox="0 0 166 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-45.6%" y="-108.1%" width="191.2%" height="316.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="30" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Guides" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact-Us-Page-Copy-2" transform="translate(-1028.000000, -307.000000)" fill="#0018FF" stroke="#FF0000">
+            <g id="Group-4" transform="translate(626.000000, 259.000000)">
+                <g id="Group" transform="translate(401.913672, 47.767355)">
+                    <path d="M22.2162594,7.73669995 C54.1682136,-4.65574207 89.9363908,2.31413211 166.187235,-3.24547551 C184.745764,-4.59861647 185.7404,-33.081255 149.262635,-34.3550867 C86.7624722,-36.5376404 -19.6534569,-69.6288384 -19.6534569,3.2727486 C-19.6534569,76.1743356 -9.7356949,20.129142 22.2162594,7.73669995 Z" id="Oval" filter="url(#filter-1)" transform="translate(79.575105, -1.865929) rotate(-2.000000) translate(-79.575105, 1.865929) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

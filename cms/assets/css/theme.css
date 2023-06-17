@@ -1,0 +1,215 @@
+
+
+/*Backgrounds*/
+
+.background-bg{
+
+    background-color: #fbfbfb !important;
+
+}
+
+
+
+.black-bg{
+
+    background-color: #000 !important;
+
+}
+
+
+
+.white-bg{
+
+    background-color: #fff;
+
+}
+
+
+
+.primary-bg{
+
+    background-color: #0B3247;
+
+}
+
+
+
+.secondary-bg{
+
+background-color: #9FAEBF;
+
+
+
+}
+
+
+
+.tertiary-bg{
+
+background-color: #22A1E6;
+
+}
+
+
+
+.alternative-bg{
+
+background-color: #D4E8FE;
+
+
+
+}
+
+
+
+.success-bg{
+
+    background-color: #5A8A80;
+
+}
+
+
+
+.caution-bg{
+
+    background-color: yellow;
+
+}
+
+
+
+.danger-bg{
+
+    background-color: #C75146;
+
+
+
+}
+
+
+
+.regular-bg{
+
+    background-color: lightgreen !important;
+
+}
+
+.editor-bg{
+
+    background-color: lightskyblue !important;
+
+}
+
+.admin-bg{
+
+    background-color: cornflowerblue !important;
+
+}
+
+.root-bg{
+
+    background-color: gold !important;
+
+}
+
+
+
+/*font colours*/
+
+.black-txt{
+
+    color: #000;
+
+}
+
+
+
+.white-txt{
+
+    color: #fff;
+
+}
+
+.primary-txt{  
+
+    color: #0B3247;
+
+
+
+}
+
+.white-txt{  
+
+    color: #fff;
+
+
+
+}
+
+
+
+.secondary-txt{
+
+    color: #9FAEBF;
+
+
+
+}
+
+
+
+.tertiary-txt{
+
+    color: #22A1E6;
+
+
+
+}
+
+.danger-txt{
+
+    color: #E3666F;
+
+}
+
+
+
+.alternative-txt{
+
+    color: #D4E8FE;
+
+}
+
+
+
+.success-txt{
+
+    color: #5A8A80;
+
+}
+
+.caution-txt{
+
+    color: rgb(255, 167, 167);
+
+}
+
+
+
+.success-bg{
+
+    background-color: yellowgreen;
+
+}
+
+.caution-bg{
+
+    background-color: rgb(165, 165, 165);
+
+}
+
+.neutral-bg{
+
+ background-color: rgb(87, 139, 190)   
+
+}

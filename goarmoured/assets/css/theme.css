@@ -1,0 +1,65 @@
+.primary-bg{
+        background-color: #171717;
+}
+
+.secondary-bg{
+    background-color: #585858;
+
+}
+
+.tertiary-bg{
+    background-color: #cfcfcf;
+}
+
+.alternative-bg{
+    background-color: #e4e4e4;
+
+}
+
+.white-bg{
+    background-color: white;
+}
+
+
+
+
+
+.primary-txt{  
+    color: #171717;
+
+}
+.white-txt{  
+    color: #fff;
+
+}
+
+.secondary-txt{
+    color: #585858;
+
+}
+
+.tertiary-txt{
+    color: rgb(87, 139, 190);
+
+}
+
+.alternative-txt{
+    color: gainsboro;
+}
+
+.success-txt{
+    color: yellowgreen;
+}
+.caution-txt{
+    color: rgb(255, 167, 167);
+}
+
+.success-bg{
+    background-color: yellowgreen;
+}
+.caution-bg{
+    background-color: rgb(165, 165, 165);
+}
+.neutral-bg{
+ background-color: rgb(87, 139, 190)   
+}
